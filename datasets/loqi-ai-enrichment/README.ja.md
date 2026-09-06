@@ -16,8 +16,12 @@ CC0 の場所データだけを材料に、AI が意味情報(タグ・雰囲気
 **提供元のライセンスと、このデータセットのライセンスは別。**
 対応表が ODbL でも、そこに出てくる Wikidata は CC0 のままである。
 
-- Wikidata — `CC0-1.0`
-- Loqi — `CC0-1.0`
+- Wikidata — `CC0-1.0` — https://www.wikidata.org/
+- Loqi — `CC0-1.0` — https://github.com/MasamiYamate/LoqiRoamPlacesData
+
+## 元データからの変更
+
+Loqiは対象レコードを選択し、フィールド名、分類、出力構造を正規化している。元データをそのまま再配布したものではない。
 
 ## ファイル
 
@@ -27,7 +31,7 @@ CC0 の場所データだけを材料に、AI が意味情報(タグ・雰囲気
 | `<region>.parquet` | 同じ内容の列指向版(`to_parquet.py` が作る) |
 | `manifest.json` | 何から、いつ、どう作ったか。行数とファイルの指紋 |
 | `schema.json` | 列の意味 |
-| `LICENSE` | 配る側が負う義務 |
+| `LICENSE` | データへ適用されるライセンスの通知と正式条文URI |
 
 ## なぜ統合しないのか
 

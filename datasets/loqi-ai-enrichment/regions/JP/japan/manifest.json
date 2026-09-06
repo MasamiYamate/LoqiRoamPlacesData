@@ -40,7 +40,7 @@
     "入力のライセンス族ごとに独立したデータセットとして公開する。"
   ],
   "pipeline": "places-pipeline/1.1",
-  "generatedAt": "2026-09-04T19:27:00.331Z",
+  "generatedAt": "2026-09-06T06:52:15.822Z",
   "files": [
     {
       "name": "data-2ee97b3e676a302c.jsonl",
@@ -57,6 +57,14 @@
       "bytes": 1239925,
       "sha256": "b1b3e26485c1af04ded9d329b79de4b09ff75e51f1300f7cd33eed040fff8621",
       "generatedAt": "2026-09-04T19:27:00.331Z"
+    },
+    {
+      "name": "data-9c68f215bd9bfc65.jsonl",
+      "format": "application/x-ndjson",
+      "rows": 2560,
+      "bytes": 1253139,
+      "sha256": "9c68f215bd9bfc650bc19c22327984db10fe27834dd231511313c4a6165799c3",
+      "generatedAt": "2026-09-06T06:52:15.822Z"
     }
   ],
   "skipped": []
