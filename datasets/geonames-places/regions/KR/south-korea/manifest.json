@@ -1,0 +1,69 @@
+{
+  "dataset": "geonames-places",
+  "title": "GeoNames Places",
+  "summary": "GeoNames の地名データを Loqi の正規化スキーマへ落としたもの。",
+  "license": {
+    "id": "CC-BY-4.0",
+    "name": "Creative Commons Attribution 4.0 International",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "tier": "permissive",
+    "attributionRequired": true,
+    "shareAlike": false
+  },
+  "inputLicenses": [
+    {
+      "id": "CC-BY-4.0",
+      "name": "Creative Commons Attribution 4.0 International",
+      "url": "https://creativecommons.org/licenses/by/4.0/",
+      "tier": "permissive",
+      "attributionRequired": true,
+      "shareAlike": false
+    }
+  ],
+  "providers": [
+    "GeoNames"
+  ],
+  "attribution": [
+    "GeoNames — Creative Commons Attribution 4.0 International (https://creativecommons.org/licenses/by/4.0/)",
+    "This dataset as a whole — Creative Commons Attribution 4.0 International (https://creativecommons.org/licenses/by/4.0/)"
+  ],
+  "region": "south-korea",
+  "query": {
+    "kind": "country-dump",
+    "country": "KR",
+    "bbox": {
+      "west": 124.3,
+      "south": 32.3,
+      "east": 132.4,
+      "north": 38.7
+    }
+  },
+  "notes": [
+    "feature class A(行政区画)と V(植生)は落としてある。代表点しか持たないものは場所として扱わない。",
+    "言語の印が付けられる名前だけを names に入れている。alternatenames は言語不明なので使わない。"
+  ],
+  "pipeline": "places-pipeline/1.1",
+  "generatedAt": "2026-09-05T01:08:01.064Z",
+  "files": [
+    {
+      "name": "data-0001.jsonl",
+      "format": "application/x-ndjson",
+      "rows": 91845,
+      "bytes": 50331200,
+      "sha256": "d4ec84fefe0202caff6bae25acb4d56dc909b60f9d4a4d9f7971e7347ab69163",
+      "part": 1,
+      "parts": 2
+    },
+    {
+      "name": "data-0002.jsonl",
+      "format": "application/x-ndjson",
+      "rows": 45979,
+      "bytes": 25570496,
+      "sha256": "61cf2735423b086d98b52e684e96fe0e357e6baf16898701ad82d16c7087b1ba",
+      "part": 2,
+      "parts": 2
+    }
+  ],
+  "skipped": [],
+  "countryCode": "KR"
+}

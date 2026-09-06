@@ -1,0 +1,1051 @@
+{
+  "name": "Loqi Places open base datasets",
+  "tagline": "Open place data, unified for AI.",
+  "principle": "Datasets stay open and independent. Loqi makes them work together.",
+  "generatedAt": "2026-09-05T12:37:02.313Z",
+  "repository": "https://github.com/MasamiYamate/LoqiRoamPlacesData",
+  "includesAiEnrichment": true,
+  "datasets": [
+    {
+      "dataset": "entity-links/ccby-links",
+      "title": "Entity links (CC BY side)",
+      "summary": "Wikidata と GeoNames のレコードが同じ場所を指しているという対応表。",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "Creative Commons Attribution 4.0 International",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "tier": "permissive",
+        "attributionRequired": true,
+        "shareAlike": false
+      },
+      "providers": [
+        "Wikidata",
+        "GeoNames"
+      ],
+      "attribution": [
+        "Wikidata — CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/)",
+        "GeoNames — Creative Commons Attribution 4.0 International (https://creativecommons.org/licenses/by/4.0/)",
+        "This dataset as a whole — Creative Commons Attribution 4.0 International (https://creativecommons.org/licenses/by/4.0/)"
+      ],
+      "path": "datasets/entity-links/ccby-links/",
+      "generatedAt": "2026-09-05T12:37:02.313Z",
+      "regions": [
+        {
+          "id": "japan",
+          "countryCode": "JP",
+          "generatedAt": "2026-09-04T02:59:24.971Z",
+          "path": "datasets/entity-links/ccby-links/regions/JP/japan/",
+          "manifest": "datasets/entity-links/ccby-links/regions/JP/japan/manifest.json",
+          "files": [
+            {
+              "name": "data.jsonl",
+              "format": "application/x-ndjson",
+              "rows": 21887,
+              "bytes": 8168132,
+              "sha256": "1fe275c2f54174fbe739755186b693b4d64d80df07d2e6da800d856546fe8bba"
+            }
+          ]
+        },
+        {
+          "id": "south-korea",
+          "countryCode": "KR",
+          "generatedAt": "2026-09-05T01:13:48.949Z",
+          "path": "datasets/entity-links/ccby-links/regions/KR/south-korea/",
+          "manifest": "datasets/entity-links/ccby-links/regions/KR/south-korea/manifest.json",
+          "files": [
+            {
+              "name": "data.jsonl",
+              "format": "application/x-ndjson",
+              "rows": 11923,
+              "bytes": 4452845,
+              "sha256": "b0496a6efcaf4d937baae2cabcce095d8ef91a630b7a9196ccf173372a127e3c"
+            }
+          ]
+        },
+        {
+          "id": "philippines",
+          "countryCode": "PH",
+          "generatedAt": "2026-09-05T12:36:57.557Z",
+          "path": "datasets/entity-links/ccby-links/regions/PH/philippines/",
+          "manifest": "datasets/entity-links/ccby-links/regions/PH/philippines/manifest.json",
+          "files": [
+            {
+              "name": "data.jsonl",
+              "format": "application/x-ndjson",
+              "rows": 22986,
+              "bytes": 8580911,
+              "sha256": "b394bb33bdd3a01da21ba8ac09b4ef006c23d675449ff829917739ded725a8ba"
+            }
+          ]
+        },
+        {
+          "id": "thailand",
+          "countryCode": "TH",
+          "generatedAt": "2026-09-05T04:49:07.763Z",
+          "path": "datasets/entity-links/ccby-links/regions/TH/thailand/",
+          "manifest": "datasets/entity-links/ccby-links/regions/TH/thailand/manifest.json",
+          "files": [
+            {
+              "name": "data.jsonl",
+              "format": "application/x-ndjson",
+              "rows": 26114,
+              "bytes": 9755540,
+              "sha256": "a82d5dd476d69e520385facc765adc518bb6eece96cde664950e0f83c57ce520"
+            }
+          ]
+        },
+        {
+          "id": "taiwan",
+          "countryCode": "TW",
+          "generatedAt": "2026-09-05T04:42:38.273Z",
+          "path": "datasets/entity-links/ccby-links/regions/TW/taiwan/",
+          "manifest": "datasets/entity-links/ccby-links/regions/TW/taiwan/manifest.json",
+          "files": [
+            {
+              "name": "data.jsonl",
+              "format": "application/x-ndjson",
+              "rows": 5435,
+              "bytes": 2029482,
+              "sha256": "9597a185df3db861405f5c9ec606c6e77dec82cc4efae8b757c751d374067804"
+            }
+          ]
+        },
+        {
+          "id": "vietnam",
+          "countryCode": "VN",
+          "generatedAt": "2026-09-05T04:56:34.439Z",
+          "path": "datasets/entity-links/ccby-links/regions/VN/vietnam/",
+          "manifest": "datasets/entity-links/ccby-links/regions/VN/vietnam/manifest.json",
+          "files": [
+            {
+              "name": "data.jsonl",
+              "format": "application/x-ndjson",
+              "rows": 11669,
+              "bytes": 4357996,
+              "sha256": "932866a43d76a9b7a33501a01db58cd625449064542070ba5c91a4fadfcbd7c0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "entity-links/osm-links",
+      "title": "Entity links (ODbL side)",
+      "summary": "Wikidata と OSM のレコードの対応表。OSM を見て作ったので ODbL 側に置く。",
+      "license": {
+        "id": "ODbL-1.0",
+        "name": "Open Database License v1.0",
+        "url": "https://opendatacommons.org/licenses/odbl/1-0/",
+        "tier": "share-alike",
+        "attributionRequired": true,
+        "shareAlike": true
+      },
+      "providers": [
+        "Wikidata",
+        "OpenStreetMap contributors"
+      ],
+      "attribution": [
+        "Wikidata — CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/)",
+        "OpenStreetMap contributors — Open Database License v1.0 (https://opendatacommons.org/licenses/odbl/1-0/)",
+        "This dataset as a whole — Open Database License v1.0 (https://opendatacommons.org/licenses/odbl/1-0/)"
+      ],
+      "path": "datasets/entity-links/osm-links/",
+      "generatedAt": "2026-09-05T12:37:02.313Z",
+      "regions": [
+        {
+          "id": "japan",
+          "countryCode": "JP",
+          "generatedAt": "2026-09-04T03:01:38.838Z",
+          "path": "datasets/entity-links/osm-links/regions/JP/japan/",
+          "manifest": "datasets/entity-links/osm-links/regions/JP/japan/manifest.json",
+          "files": [
+            {
+              "name": "data.jsonl",
+              "format": "application/x-ndjson",
+              "rows": 85652,
+              "bytes": 31561549,
+              "sha256": "0dc7c6dd08c783c098b2a39ff2931b036ca87ac50fd55a7184e38f700242a6af"
+            }
+          ]
+        },
+        {
+          "id": "south-korea",
+          "countryCode": "KR",
+          "generatedAt": "2026-09-05T01:14:01.248Z",
+          "path": "datasets/entity-links/osm-links/regions/KR/south-korea/",
+          "manifest": "datasets/entity-links/osm-links/regions/KR/south-korea/manifest.json",
+          "files": [
+            {
+              "name": "data.jsonl",
+              "format": "application/x-ndjson",
+              "rows": 10549,
+              "bytes": 3879502,
+              "sha256": "eea191eb15650f3c6a8e57fe6888f65c4853a557ef33990ae2369ba7b2806b48"
+            }
+          ]
+        },
+        {
+          "id": "philippines",
+          "countryCode": "PH",
+          "generatedAt": "2026-09-05T12:37:02.243Z",
+          "path": "datasets/entity-links/osm-links/regions/PH/philippines/",
+          "manifest": "datasets/entity-links/osm-links/regions/PH/philippines/manifest.json",
+          "files": [
+            {
+              "name": "data.jsonl",
+              "format": "application/x-ndjson",
+              "rows": 10463,
+              "bytes": 3846367,
+              "sha256": "075ef2f22a3ba1adccb09236cfd675a5fcd566420401325a374f57c7d7eef8f9"
+            }
+          ]
+        },
+        {
+          "id": "thailand",
+          "countryCode": "TH",
+          "generatedAt": "2026-09-05T04:49:12.026Z",
+          "path": "datasets/entity-links/osm-links/regions/TH/thailand/",
+          "manifest": "datasets/entity-links/osm-links/regions/TH/thailand/manifest.json",
+          "files": [
+            {
+              "name": "data.jsonl",
+              "format": "application/x-ndjson",
+              "rows": 7835,
+              "bytes": 2885156,
+              "sha256": "7cb878cacfed230dc0d123c3f553ffa39bc8ccd04e303a9b0de3c15265abf2c3"
+            }
+          ]
+        },
+        {
+          "id": "taiwan",
+          "countryCode": "TW",
+          "generatedAt": "2026-09-05T04:42:48.440Z",
+          "path": "datasets/entity-links/osm-links/regions/TW/taiwan/",
+          "manifest": "datasets/entity-links/osm-links/regions/TW/taiwan/manifest.json",
+          "files": [
+            {
+              "name": "data.jsonl",
+              "format": "application/x-ndjson",
+              "rows": 6798,
+              "bytes": 2508204,
+              "sha256": "f2cf06633ecff675a77a075cfb6910b6b9c91e3326523a2609dd4f7f2892dff2"
+            }
+          ]
+        },
+        {
+          "id": "vietnam",
+          "countryCode": "VN",
+          "generatedAt": "2026-09-05T04:56:37.742Z",
+          "path": "datasets/entity-links/osm-links/regions/VN/vietnam/",
+          "manifest": "datasets/entity-links/osm-links/regions/VN/vietnam/manifest.json",
+          "files": [
+            {
+              "name": "data.jsonl",
+              "format": "application/x-ndjson",
+              "rows": 3735,
+              "bytes": 1377382,
+              "sha256": "f02afa9d1c4408fa6ea2cf74874bff1afce4247c25247d2a8013215ffccd950d"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "geonames-places",
+      "title": "GeoNames Places",
+      "summary": "GeoNames の地名データを Loqi の正規化スキーマへ落としたもの。",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "Creative Commons Attribution 4.0 International",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "tier": "permissive",
+        "attributionRequired": true,
+        "shareAlike": false
+      },
+      "providers": [
+        "GeoNames"
+      ],
+      "attribution": [
+        "GeoNames — Creative Commons Attribution 4.0 International (https://creativecommons.org/licenses/by/4.0/)",
+        "This dataset as a whole — Creative Commons Attribution 4.0 International (https://creativecommons.org/licenses/by/4.0/)"
+      ],
+      "path": "datasets/geonames-places/",
+      "generatedAt": "2026-09-05T12:37:02.313Z",
+      "regions": [
+        {
+          "id": "japan",
+          "countryCode": "JP",
+          "generatedAt": "2026-09-04T00:36:41.929Z",
+          "path": "datasets/geonames-places/regions/JP/japan/",
+          "manifest": "datasets/geonames-places/regions/JP/japan/manifest.json",
+          "files": [
+            {
+              "name": "data-0001.jsonl",
+              "format": "application/x-ndjson",
+              "rows": 92296,
+              "bytes": 50331429,
+              "sha256": "699180bc78c67870910ab40865881404e739577f96506950123c08f610377b90",
+              "part": 1,
+              "parts": 2
+            },
+            {
+              "name": "data-0002.jsonl",
+              "format": "application/x-ndjson",
+              "rows": 6670,
+              "bytes": 3757606,
+              "sha256": "247032445ebb4cb72f704cab42110d703806b9c50b45bea5fe5a973ca942299d",
+              "part": 2,
+              "parts": 2
+            }
+          ]
+        },
+        {
+          "id": "south-korea",
+          "countryCode": "KR",
+          "generatedAt": "2026-09-05T01:08:01.064Z",
+          "path": "datasets/geonames-places/regions/KR/south-korea/",
+          "manifest": "datasets/geonames-places/regions/KR/south-korea/manifest.json",
+          "files": [
+            {
+              "name": "data-0001.jsonl",
+              "format": "application/x-ndjson",
+              "rows": 91845,
+              "bytes": 50331200,
+              "sha256": "d4ec84fefe0202caff6bae25acb4d56dc909b60f9d4a4d9f7971e7347ab69163",
+              "part": 1,
+              "parts": 2
+            },
+            {
+              "name": "data-0002.jsonl",
+              "format": "application/x-ndjson",
+              "rows": 45979,
+              "bytes": 25570496,
+              "sha256": "61cf2735423b086d98b52e684e96fe0e357e6baf16898701ad82d16c7087b1ba",
+              "part": 2,
+              "parts": 2
+            }
+          ]
+        },
+        {
+          "id": "philippines",
+          "countryCode": "PH",
+          "generatedAt": "2026-09-05T05:07:45.305Z",
+          "path": "datasets/geonames-places/regions/PH/philippines/",
+          "manifest": "datasets/geonames-places/regions/PH/philippines/manifest.json",
+          "files": [
+            {
+              "name": "data.jsonl",
+              "format": "application/x-ndjson",
+              "rows": 75664,
+              "bytes": 41418720,
+              "sha256": "b9dd5a965a84cecd0b68ee3c3341f98ef70da464449efeddfd78661cfa8eb1db"
+            }
+          ]
+        },
+        {
+          "id": "thailand",
+          "countryCode": "TH",
+          "generatedAt": "2026-09-05T04:48:18.226Z",
+          "path": "datasets/geonames-places/regions/TH/thailand/",
+          "manifest": "datasets/geonames-places/regions/TH/thailand/manifest.json",
+          "files": [
+            {
+              "name": "data-0001.jsonl",
+              "format": "application/x-ndjson",
+              "rows": 90899,
+              "bytes": 50331141,
+              "sha256": "2a27fc87fd215f46bce29822e0005b74f2345a7bc8b1f0524e01d16a9024480f",
+              "part": 1,
+              "parts": 3
+            },
+            {
+              "name": "data-0002.jsonl",
+              "format": "application/x-ndjson",
+              "rows": 90244,
+              "bytes": 50331140,
+              "sha256": "a61176276f132906faafee6fbcf22e0994faf310dfc06cc29b716ea97389cea4",
+              "part": 2,
+              "parts": 3
+            },
+            {
+              "name": "data-0003.jsonl",
+              "format": "application/x-ndjson",
+              "rows": 75144,
+              "bytes": 41779264,
+              "sha256": "d9dc32b9c1f3d1d101eaa7eaa1f789bdff135a5923f1160d559976e77e5a6e32",
+              "part": 3,
+              "parts": 3
+            }
+          ]
+        },
+        {
+          "id": "taiwan",
+          "countryCode": "TW",
+          "generatedAt": "2026-09-05T04:39:46.401Z",
+          "path": "datasets/geonames-places/regions/TW/taiwan/",
+          "manifest": "datasets/geonames-places/regions/TW/taiwan/manifest.json",
+          "files": [
+            {
+              "name": "data.jsonl",
+              "format": "application/x-ndjson",
+              "rows": 36801,
+              "bytes": 19941553,
+              "sha256": "4478dfc64cf2458fd6f0a35774f9f1d79f48db52f3c2f06b4b2a4b81a28286e9"
+            }
+          ]
+        },
+        {
+          "id": "vietnam",
+          "countryCode": "VN",
+          "generatedAt": "2026-09-05T04:53:40.738Z",
+          "path": "datasets/geonames-places/regions/VN/vietnam/",
+          "manifest": "datasets/geonames-places/regions/VN/vietnam/manifest.json",
+          "files": [
+            {
+              "name": "data.jsonl",
+              "format": "application/x-ndjson",
+              "rows": 55676,
+              "bytes": 30490680,
+              "sha256": "5d7b068ea066437473b99d284f2422ea1e6f996d783a622d577af88b70c3d101"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "loqi-ai-enrichment",
+      "title": "Loqi AI Enrichment",
+      "summary": "CC0 の場所データだけを材料に、AI が意味情報(タグ・雰囲気・活動・向き)を生成したもの。",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0 Universal",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "tier": "cc0",
+        "attributionRequired": false,
+        "shareAlike": false
+      },
+      "providers": [
+        "Wikidata",
+        "Loqi"
+      ],
+      "attribution": [
+        "Wikidata — CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/)",
+        "Loqi — CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/)",
+        "This dataset as a whole — CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/)"
+      ],
+      "path": "datasets/loqi-ai-enrichment/",
+      "generatedAt": "2026-09-04T19:27:00.331Z",
+      "regions": [
+        {
+          "id": "japan",
+          "countryCode": "JP",
+          "generatedAt": "2026-09-04T19:27:00.331Z",
+          "path": "datasets/loqi-ai-enrichment/regions/JP/japan/",
+          "manifest": "datasets/loqi-ai-enrichment/regions/JP/japan/manifest.json",
+          "files": [
+            {
+              "name": "data-2ee97b3e676a302c.jsonl",
+              "format": "application/x-ndjson",
+              "rows": 240,
+              "bytes": 116088,
+              "sha256": "2ee97b3e676a302c46c02188c4076dc5a07c0dbc414641f4568473728c924dee",
+              "generatedAt": "2026-09-04T12:50:25.149Z"
+            },
+            {
+              "name": "data-b1b3e26485c1af04.jsonl",
+              "format": "application/x-ndjson",
+              "rows": 2560,
+              "bytes": 1239925,
+              "sha256": "b1b3e26485c1af04ded9d329b79de4b09ff75e51f1300f7cd33eed040fff8621",
+              "generatedAt": "2026-09-04T19:27:00.331Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "loqi-osm-ai-enrichment",
+      "title": "Loqi OSM AI Enrichment",
+      "summary": "ODbL の OSM 場所データだけを材料に、AI が意味情報を生成した派生データベース。",
+      "license": {
+        "id": "ODbL-1.0",
+        "name": "Open Database License v1.0",
+        "url": "https://opendatacommons.org/licenses/odbl/1-0/",
+        "tier": "share-alike",
+        "attributionRequired": true,
+        "shareAlike": true
+      },
+      "providers": [
+        "OpenStreetMap contributors",
+        "Loqi"
+      ],
+      "attribution": [
+        "OpenStreetMap contributors — Open Database License v1.0 (https://opendatacommons.org/licenses/odbl/1-0/)",
+        "Loqi — Open Database License v1.0 (https://opendatacommons.org/licenses/odbl/1-0/)",
+        "This dataset as a whole — Open Database License v1.0 (https://opendatacommons.org/licenses/odbl/1-0/)"
+      ],
+      "path": "datasets/loqi-osm-ai-enrichment/",
+      "generatedAt": "2026-09-04T19:27:00.331Z",
+      "regions": [
+        {
+          "id": "japan",
+          "countryCode": "JP",
+          "generatedAt": "2026-09-04T19:27:00.331Z",
+          "path": "datasets/loqi-osm-ai-enrichment/regions/JP/japan/",
+          "manifest": "datasets/loqi-osm-ai-enrichment/regions/JP/japan/manifest.json",
+          "files": [
+            {
+              "name": "data-7d9693c1fb305a15.jsonl",
+              "format": "application/x-ndjson",
+              "rows": 240,
+              "bytes": 117355,
+              "sha256": "7d9693c1fb305a1586cbe82861a9344af12190175faf744021d8402e331528ac",
+              "generatedAt": "2026-09-04T12:50:25.149Z"
+            },
+            {
+              "name": "data-02464fd2ced6e007.jsonl",
+              "format": "application/x-ndjson",
+              "rows": 2512,
+              "bytes": 1219218,
+              "sha256": "02464fd2ced6e0074bef52331bc783190add421289adaba04a4eaa17d76ca17f",
+              "generatedAt": "2026-09-04T19:27:00.331Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "osm-places",
+      "title": "OSM Places",
+      "summary": "OpenStreetMap の POI を Loqi の正規化スキーマへ落としたもの。ODbL のまま隔離してある。",
+      "license": {
+        "id": "ODbL-1.0",
+        "name": "Open Database License v1.0",
+        "url": "https://opendatacommons.org/licenses/odbl/1-0/",
+        "tier": "share-alike",
+        "attributionRequired": true,
+        "shareAlike": true
+      },
+      "providers": [
+        "OpenStreetMap contributors"
+      ],
+      "attribution": [
+        "OpenStreetMap contributors — Open Database License v1.0 (https://opendatacommons.org/licenses/odbl/1-0/)",
+        "This dataset as a whole — Open Database License v1.0 (https://opendatacommons.org/licenses/odbl/1-0/)"
+      ],
+      "path": "datasets/osm-places/",
+      "generatedAt": "2026-09-05T12:37:02.313Z",
+      "regions": [
+        {
+          "id": "japan",
+          "countryCode": "JP",
+          "generatedAt": "2026-09-04T00:37:49.125Z",
+          "path": "datasets/osm-places/regions/JP/japan/",
+          "manifest": "datasets/osm-places/regions/JP/japan/manifest.json",
+          "files": [
+            {
+              "name": "data-0001.jsonl",
+              "format": "application/x-ndjson",
+              "rows": 80299,
+              "bytes": 50331139,
+              "sha256": "88a69aa17d86d9b263c28cfa030c1942cbe7ece813969551ab37fe458a202e04",
+              "part": 1,
+              "parts": 18
+            },
+            {
+              "name": "data-0002.jsonl",
+              "format": "application/x-ndjson",
+              "rows": 80239,
+              "bytes": 50331245,
+              "sha256": "32d56fc8ff2c896eed453122d2f94f3a0b1768c8a40d2ca3299da8bf1f2cc86e",
+              "part": 2,
+              "parts": 18
+            },
+            {
+              "name": "data-0003.jsonl",
+              "format": "application/x-ndjson",
+              "rows": 81966,
+              "bytes": 50331586,
+              "sha256": "72fc9b2c3fa4bc48059728381e7af735144552a250295ab5a06313f5264fab74",
+              "part": 3,
+              "parts": 18
+            },
+            {
+              "name": "data-0004.jsonl",
+              "format": "application/x-ndjson",
+              "rows": 81747,
+              "bytes": 50331151,
+              "sha256": "5096b03a1718727b613d79f4329434463c2d01db37fa05c4f74f5eafa2b2c900",
+              "part": 4,
+              "parts": 18
+            },
+            {
+              "name": "data-0005.jsonl",
+              "format": "application/x-ndjson",
+              "rows": 82292,
+              "bytes": 50331592,
+              "sha256": "02b3c7d23589d5ea1ea2cb13e1d9199efb7ad9846de85cad4d6bacdeec743fb8",
+              "part": 5,
+              "parts": 18
+            },
+            {
+              "name": "data-0006.jsonl",
+              "format": "application/x-ndjson",
+              "rows": 82274,
+              "bytes": 50331289,
+              "sha256": "e0756e330c6f2ac8bfb46613966257ada0dae10fdce66923f3472ba22ebdbb5b",
+              "part": 6,
+              "parts": 18
+            },
+            {
+              "name": "data-0007.jsonl",
+              "format": "application/x-ndjson",
+              "rows": 82021,
+              "bytes": 50331021,
+              "sha256": "4c9a88785ab2aae5a15d62e3ece8b8c26accfdcc2f4a5556158b15b405072d12",
+              "part": 7,
+              "parts": 18
+            },
+            {
+              "name": "data-0008.jsonl",
+              "format": "application/x-ndjson",
+              "rows": 81361,
+              "bytes": 50331190,
+              "sha256": "0ad598ffb3f01d5714a20b207daf4d968a53eec1d771d21f3b7bef0cd05ee2dc",
+              "part": 8,
+              "parts": 18
+            },
+            {
+              "name": "data-0009.jsonl",
+              "format": "application/x-ndjson",
+              "rows": 81968,
+              "bytes": 50331322,
+              "sha256": "4b89a1bb980a3f4949c6a8e55f77076903fd2e9a34ea599bfc3124f7dbfa7173",
+              "part": 9,
+              "parts": 18
+            },
+            {
+              "name": "data-0010.jsonl",
+              "format": "application/x-ndjson",
+              "rows": 81899,
+              "bytes": 50331296,
+              "sha256": "32156a17d15a72187c749d6bad102934646680ae9e46669ecf91d2f7cb555e03",
+              "part": 10,
+              "parts": 18
+            },
+            {
+              "name": "data-0011.jsonl",
+              "format": "application/x-ndjson",
+              "rows": 81129,
+              "bytes": 50331271,
+              "sha256": "b78383cfbae0a70fdd344dcb69003067b89ef0d7256b7439a4abfac0e13f75f6",
+              "part": 11,
+              "parts": 18
+            },
+            {
+              "name": "data-0012.jsonl",
+              "format": "application/x-ndjson",
+              "rows": 81053,
+              "bytes": 50331516,
+              "sha256": "8331332809b6a3524cca73f0d6616b028a63984775b45abb15a18620bae5c5c8",
+              "part": 12,
+              "parts": 18
+            },
+            {
+              "name": "data-0013.jsonl",
+              "format": "application/x-ndjson",
+              "rows": 80986,
+              "bytes": 50330998,
+              "sha256": "e11c0debc0ac338e7bf0715adbb395e1e2ad69d7114403469bee6944252f338f",
+              "part": 13,
+              "parts": 18
+            },
+            {
+              "name": "data-0014.jsonl",
+              "format": "application/x-ndjson",
+              "rows": 80701,
+              "bytes": 50331585,
+              "sha256": "59b7716aa03c3863e1ac7e664f1c2923a850b9281f2683dbeb5a4d024f3fd8ab",
+              "part": 14,
+              "parts": 18
+            },
+            {
+              "name": "data-0015.jsonl",
+              "format": "application/x-ndjson",
+              "rows": 81144,
+              "bytes": 50331363,
+              "sha256": "92817cb6c99a4d30b558b91fe256bc1a035c0600d065d7670f523c30fcfbce10",
+              "part": 15,
+              "parts": 18
+            },
+            {
+              "name": "data-0016.jsonl",
+              "format": "application/x-ndjson",
+              "rows": 81215,
+              "bytes": 50331127,
+              "sha256": "f013ff12bad167629590d057276bc9d9f197d47ae62d74a93702bbe63c87f463",
+              "part": 16,
+              "parts": 18
+            },
+            {
+              "name": "data-0017.jsonl",
+              "format": "application/x-ndjson",
+              "rows": 80562,
+              "bytes": 50331189,
+              "sha256": "17add51dba738831e9c5bc4c7a4e3bb05fca5152a796a8d36054340e490c070a",
+              "part": 17,
+              "parts": 18
+            },
+            {
+              "name": "data-0018.jsonl",
+              "format": "application/x-ndjson",
+              "rows": 66114,
+              "bytes": 41459735,
+              "sha256": "8ccb20c94cd05ee73f915bd1e4586d81f1fc469c3d175026396f3a1264647dd4",
+              "part": 18,
+              "parts": 18
+            }
+          ]
+        },
+        {
+          "id": "south-korea",
+          "countryCode": "KR",
+          "generatedAt": "2026-09-05T01:13:46.895Z",
+          "path": "datasets/osm-places/regions/KR/south-korea/",
+          "manifest": "datasets/osm-places/regions/KR/south-korea/manifest.json",
+          "files": [
+            {
+              "name": "data-0001.jsonl",
+              "format": "application/x-ndjson",
+              "rows": 84110,
+              "bytes": 50331519,
+              "sha256": "ad08136f80a4a7593b8844c3465e6c5892a23f65c998f68b767ae8e074fe3ae6",
+              "part": 1,
+              "parts": 5
+            },
+            {
+              "name": "data-0002.jsonl",
+              "format": "application/x-ndjson",
+              "rows": 85791,
+              "bytes": 50331140,
+              "sha256": "5b902b5a5ed3285f923b41d542ee84f70a3ae75644b1f6c1929af44779da32a2",
+              "part": 2,
+              "parts": 5
+            },
+            {
+              "name": "data-0003.jsonl",
+              "format": "application/x-ndjson",
+              "rows": 85164,
+              "bytes": 50331068,
+              "sha256": "e4da3eb64a88ef56c23810810279e64e5f196d6ea539e71402825084bf1bcbec",
+              "part": 3,
+              "parts": 5
+            },
+            {
+              "name": "data-0004.jsonl",
+              "format": "application/x-ndjson",
+              "rows": 84791,
+              "bytes": 50331380,
+              "sha256": "217351757835ee0b223a0b11aa1598ac5b419fbf0a95f20f580fa89d6416ec93",
+              "part": 4,
+              "parts": 5
+            },
+            {
+              "name": "data-0005.jsonl",
+              "format": "application/x-ndjson",
+              "rows": 43520,
+              "bytes": 25746072,
+              "sha256": "27b883c7b9f95a690a2fab9fa703d3e80853332e75ba0226c43ec865d28b0a4d",
+              "part": 5,
+              "parts": 5
+            }
+          ]
+        },
+        {
+          "id": "philippines",
+          "countryCode": "PH",
+          "generatedAt": "2026-09-05T12:36:56.876Z",
+          "path": "datasets/osm-places/regions/PH/philippines/",
+          "manifest": "datasets/osm-places/regions/PH/philippines/manifest.json",
+          "files": [
+            {
+              "name": "data-0001.jsonl",
+              "format": "application/x-ndjson",
+              "rows": 86746,
+              "bytes": 50331642,
+              "sha256": "87d1be572c5e84262ec23d40ccd53f93dee74527073712d9914c14c83fc18c31",
+              "part": 1,
+              "parts": 5
+            },
+            {
+              "name": "data-0002.jsonl",
+              "format": "application/x-ndjson",
+              "rows": 87038,
+              "bytes": 50331640,
+              "sha256": "c8510d0d63c5b1cbab70c9aa8a317e8aa952556f078801d9f70eff9a5ffb2d39",
+              "part": 2,
+              "parts": 5
+            },
+            {
+              "name": "data-0003.jsonl",
+              "format": "application/x-ndjson",
+              "rows": 86272,
+              "bytes": 50331510,
+              "sha256": "112d18833c0cd3374f240146555eeb5b05716c648961ef45d8532fdbad54b80c",
+              "part": 3,
+              "parts": 5
+            },
+            {
+              "name": "data-0004.jsonl",
+              "format": "application/x-ndjson",
+              "rows": 84625,
+              "bytes": 50331638,
+              "sha256": "475ee6d9c1542c2047e73ddaa6378d0bb8b6dba904df605e18f7240d70b2c700",
+              "part": 4,
+              "parts": 5
+            },
+            {
+              "name": "data-0005.jsonl",
+              "format": "application/x-ndjson",
+              "rows": 40261,
+              "bytes": 24072572,
+              "sha256": "53a84f37210476e152fe01683b3e93a9bd723774aaa8ee7b2c8b31b8d371c4d0",
+              "part": 5,
+              "parts": 5
+            }
+          ]
+        },
+        {
+          "id": "thailand",
+          "countryCode": "TH",
+          "generatedAt": "2026-09-05T04:49:06.068Z",
+          "path": "datasets/osm-places/regions/TH/thailand/",
+          "manifest": "datasets/osm-places/regions/TH/thailand/manifest.json",
+          "files": [
+            {
+              "name": "data-0001.jsonl",
+              "format": "application/x-ndjson",
+              "rows": 83300,
+              "bytes": 50331221,
+              "sha256": "accad9801cd6cfa8a468cd726cddc99d5acaa61221cbabdddcd3312013a44688",
+              "part": 1,
+              "parts": 2
+            },
+            {
+              "name": "data-0002.jsonl",
+              "format": "application/x-ndjson",
+              "rows": 80000,
+              "bytes": 49436179,
+              "sha256": "13c02f3dbb03778bb00cb9243acccf85452200fdad61c94e7a3b495f901240e2",
+              "part": 2,
+              "parts": 2
+            }
+          ]
+        },
+        {
+          "id": "taiwan",
+          "countryCode": "TW",
+          "generatedAt": "2026-09-05T04:42:37.423Z",
+          "path": "datasets/osm-places/regions/TW/taiwan/",
+          "manifest": "datasets/osm-places/regions/TW/taiwan/manifest.json",
+          "files": [
+            {
+              "name": "data-0001.jsonl",
+              "format": "application/x-ndjson",
+              "rows": 83093,
+              "bytes": 50331114,
+              "sha256": "66c38844302207e3508ecdaec63961afde42bea014974a0b7990286f54ace3b4",
+              "part": 1,
+              "parts": 3
+            },
+            {
+              "name": "data-0002.jsonl",
+              "format": "application/x-ndjson",
+              "rows": 82192,
+              "bytes": 50331407,
+              "sha256": "07aec24fd56c7ceb6fd07da0d22530f1f19c059e1edd19d615a21c08fda2f63f",
+              "part": 2,
+              "parts": 3
+            },
+            {
+              "name": "data-0003.jsonl",
+              "format": "application/x-ndjson",
+              "rows": 53473,
+              "bytes": 33149709,
+              "sha256": "6431e2d242f7926a500ce317c9df5040df1b5b074a867f67e4887e7e8abc6685",
+              "part": 3,
+              "parts": 3
+            }
+          ]
+        },
+        {
+          "id": "vietnam",
+          "countryCode": "VN",
+          "generatedAt": "2026-09-05T04:56:33.735Z",
+          "path": "datasets/osm-places/regions/VN/vietnam/",
+          "manifest": "datasets/osm-places/regions/VN/vietnam/manifest.json",
+          "files": [
+            {
+              "name": "data-0001.jsonl",
+              "format": "application/x-ndjson",
+              "rows": 85936,
+              "bytes": 50331353,
+              "sha256": "4e7b46d44858c1f29d2cbd76907bd672ee994d1944185eae8860eba3d43410f4",
+              "part": 1,
+              "parts": 2
+            },
+            {
+              "name": "data-0002.jsonl",
+              "format": "application/x-ndjson",
+              "rows": 35416,
+              "bytes": 21339754,
+              "sha256": "253e7a2eee897069eb28f487943f8e97f5d1ed87738fa86761680da7e3801a17",
+              "part": 2,
+              "parts": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "wikidata-places",
+      "title": "Wikidata Places",
+      "summary": "Wikidata の座標付き item を Loqi の正規化スキーマへ落としたもの。",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0 Universal",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "tier": "cc0",
+        "attributionRequired": false,
+        "shareAlike": false
+      },
+      "providers": [
+        "Wikidata"
+      ],
+      "attribution": [
+        "Wikidata — CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/)",
+        "This dataset as a whole — CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/)"
+      ],
+      "path": "datasets/wikidata-places/",
+      "generatedAt": "2026-09-05T12:37:02.313Z",
+      "regions": [
+        {
+          "id": "japan",
+          "countryCode": "JP",
+          "generatedAt": "2026-09-04T02:59:08.180Z",
+          "path": "datasets/wikidata-places/regions/JP/japan/",
+          "manifest": "datasets/wikidata-places/regions/JP/japan/manifest.json",
+          "files": [
+            {
+              "name": "data-0001.jsonl",
+              "format": "application/x-ndjson",
+              "rows": 82655,
+              "bytes": 50331501,
+              "sha256": "b540bec4eadb795a475ac84087470d72486b6a5ddcaa2d92f79c7ccc8c1650f0",
+              "part": 1,
+              "parts": 3
+            },
+            {
+              "name": "data-0002.jsonl",
+              "format": "application/x-ndjson",
+              "rows": 83333,
+              "bytes": 50331579,
+              "sha256": "d1e62faa0c235ab5006ade58699f565aebc7f2a3d0b24bf262b5e42a15f711f5",
+              "part": 2,
+              "parts": 3
+            },
+            {
+              "name": "data-0003.jsonl",
+              "format": "application/x-ndjson",
+              "rows": 24643,
+              "bytes": 14972563,
+              "sha256": "ae843f6e4f02a01e7998155daef9e590a935fb78be53d2cc504db167e281efc2",
+              "part": 3,
+              "parts": 3
+            }
+          ]
+        },
+        {
+          "id": "south-korea",
+          "countryCode": "KR",
+          "generatedAt": "2026-09-05T01:07:56.263Z",
+          "path": "datasets/wikidata-places/regions/KR/south-korea/",
+          "manifest": "datasets/wikidata-places/regions/KR/south-korea/manifest.json",
+          "files": [
+            {
+              "name": "data.jsonl",
+              "format": "application/x-ndjson",
+              "rows": 32401,
+              "bytes": 19400899,
+              "sha256": "e9179045d44160623948387a5bf1a3e05cba252b3359316aefdc98ff46a256af"
+            }
+          ]
+        },
+        {
+          "id": "philippines",
+          "countryCode": "PH",
+          "generatedAt": "2026-09-05T05:07:41.530Z",
+          "path": "datasets/wikidata-places/regions/PH/philippines/",
+          "manifest": "datasets/wikidata-places/regions/PH/philippines/manifest.json",
+          "files": [
+            {
+              "name": "data.jsonl",
+              "format": "application/x-ndjson",
+              "rows": 33253,
+              "bytes": 19942232,
+              "sha256": "9e5b9566022ff0f695a6a01850fbcdbee0e42c3ec63b5de84561e428e1ad9a52"
+            }
+          ]
+        },
+        {
+          "id": "thailand",
+          "countryCode": "TH",
+          "generatedAt": "2026-09-05T04:48:12.343Z",
+          "path": "datasets/wikidata-places/regions/TH/thailand/",
+          "manifest": "datasets/wikidata-places/regions/TH/thailand/manifest.json",
+          "files": [
+            {
+              "name": "data.jsonl",
+              "format": "application/x-ndjson",
+              "rows": 37459,
+              "bytes": 22491090,
+              "sha256": "69865981c105391f402d7ac0fbfe123fe241bc3ec8d1f4c23a97ec4695588e74"
+            }
+          ]
+        },
+        {
+          "id": "taiwan",
+          "countryCode": "TW",
+          "generatedAt": "2026-09-05T04:39:43.036Z",
+          "path": "datasets/wikidata-places/regions/TW/taiwan/",
+          "manifest": "datasets/wikidata-places/regions/TW/taiwan/manifest.json",
+          "files": [
+            {
+              "name": "data.jsonl",
+              "format": "application/x-ndjson",
+              "rows": 23845,
+              "bytes": 14171362,
+              "sha256": "b767bc65aeaaf82b0a7a156e93ac5912b2cb5e02ccf99c6689835991d65e5261"
+            }
+          ]
+        },
+        {
+          "id": "vietnam",
+          "countryCode": "VN",
+          "generatedAt": "2026-09-05T04:53:37.224Z",
+          "path": "datasets/wikidata-places/regions/VN/vietnam/",
+          "manifest": "datasets/wikidata-places/regions/VN/vietnam/manifest.json",
+          "files": [
+            {
+              "name": "data.jsonl",
+              "format": "application/x-ndjson",
+              "rows": 26753,
+              "bytes": 15874037,
+              "sha256": "4f51a5908e4a5c03bb94995626f020c1ed1bf423c388fd6421d299a69843aad5"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

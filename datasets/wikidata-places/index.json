@@ -1,0 +1,140 @@
+{
+  "dataset": "wikidata-places",
+  "title": "Wikidata Places",
+  "summary": "Wikidata の座標付き item を Loqi の正規化スキーマへ落としたもの。",
+  "license": {
+    "id": "CC0-1.0",
+    "name": "CC0 1.0 Universal",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "tier": "cc0",
+    "attributionRequired": false,
+    "shareAlike": false
+  },
+  "providers": [
+    "Wikidata"
+  ],
+  "attribution": [
+    "Wikidata — CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/)",
+    "This dataset as a whole — CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/)"
+  ],
+  "path": "datasets/wikidata-places/",
+  "generatedAt": "2026-09-05T12:37:02.313Z",
+  "regions": [
+    {
+      "id": "japan",
+      "countryCode": "JP",
+      "generatedAt": "2026-09-04T02:59:08.180Z",
+      "path": "datasets/wikidata-places/regions/JP/japan/",
+      "manifest": "datasets/wikidata-places/regions/JP/japan/manifest.json",
+      "files": [
+        {
+          "name": "data-0001.jsonl",
+          "format": "application/x-ndjson",
+          "rows": 82655,
+          "bytes": 50331501,
+          "sha256": "b540bec4eadb795a475ac84087470d72486b6a5ddcaa2d92f79c7ccc8c1650f0",
+          "part": 1,
+          "parts": 3
+        },
+        {
+          "name": "data-0002.jsonl",
+          "format": "application/x-ndjson",
+          "rows": 83333,
+          "bytes": 50331579,
+          "sha256": "d1e62faa0c235ab5006ade58699f565aebc7f2a3d0b24bf262b5e42a15f711f5",
+          "part": 2,
+          "parts": 3
+        },
+        {
+          "name": "data-0003.jsonl",
+          "format": "application/x-ndjson",
+          "rows": 24643,
+          "bytes": 14972563,
+          "sha256": "ae843f6e4f02a01e7998155daef9e590a935fb78be53d2cc504db167e281efc2",
+          "part": 3,
+          "parts": 3
+        }
+      ]
+    },
+    {
+      "id": "south-korea",
+      "countryCode": "KR",
+      "generatedAt": "2026-09-05T01:07:56.263Z",
+      "path": "datasets/wikidata-places/regions/KR/south-korea/",
+      "manifest": "datasets/wikidata-places/regions/KR/south-korea/manifest.json",
+      "files": [
+        {
+          "name": "data.jsonl",
+          "format": "application/x-ndjson",
+          "rows": 32401,
+          "bytes": 19400899,
+          "sha256": "e9179045d44160623948387a5bf1a3e05cba252b3359316aefdc98ff46a256af"
+        }
+      ]
+    },
+    {
+      "id": "philippines",
+      "countryCode": "PH",
+      "generatedAt": "2026-09-05T05:07:41.530Z",
+      "path": "datasets/wikidata-places/regions/PH/philippines/",
+      "manifest": "datasets/wikidata-places/regions/PH/philippines/manifest.json",
+      "files": [
+        {
+          "name": "data.jsonl",
+          "format": "application/x-ndjson",
+          "rows": 33253,
+          "bytes": 19942232,
+          "sha256": "9e5b9566022ff0f695a6a01850fbcdbee0e42c3ec63b5de84561e428e1ad9a52"
+        }
+      ]
+    },
+    {
+      "id": "thailand",
+      "countryCode": "TH",
+      "generatedAt": "2026-09-05T04:48:12.343Z",
+      "path": "datasets/wikidata-places/regions/TH/thailand/",
+      "manifest": "datasets/wikidata-places/regions/TH/thailand/manifest.json",
+      "files": [
+        {
+          "name": "data.jsonl",
+          "format": "application/x-ndjson",
+          "rows": 37459,
+          "bytes": 22491090,
+          "sha256": "69865981c105391f402d7ac0fbfe123fe241bc3ec8d1f4c23a97ec4695588e74"
+        }
+      ]
+    },
+    {
+      "id": "taiwan",
+      "countryCode": "TW",
+      "generatedAt": "2026-09-05T04:39:43.036Z",
+      "path": "datasets/wikidata-places/regions/TW/taiwan/",
+      "manifest": "datasets/wikidata-places/regions/TW/taiwan/manifest.json",
+      "files": [
+        {
+          "name": "data.jsonl",
+          "format": "application/x-ndjson",
+          "rows": 23845,
+          "bytes": 14171362,
+          "sha256": "b767bc65aeaaf82b0a7a156e93ac5912b2cb5e02ccf99c6689835991d65e5261"
+        }
+      ]
+    },
+    {
+      "id": "vietnam",
+      "countryCode": "VN",
+      "generatedAt": "2026-09-05T04:53:37.224Z",
+      "path": "datasets/wikidata-places/regions/VN/vietnam/",
+      "manifest": "datasets/wikidata-places/regions/VN/vietnam/manifest.json",
+      "files": [
+        {
+          "name": "data.jsonl",
+          "format": "application/x-ndjson",
+          "rows": 26753,
+          "bytes": 15874037,
+          "sha256": "4f51a5908e4a5c03bb94995626f020c1ed1bf423c388fd6421d299a69843aad5"
+        }
+      ]
+    }
+  ]
+}

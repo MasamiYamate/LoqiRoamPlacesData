@@ -1,0 +1,76 @@
+{
+  "dataset": "osm-places",
+  "title": "OSM Places",
+  "summary": "OpenStreetMap の POI を Loqi の正規化スキーマへ落としたもの。ODbL のまま隔離してある。",
+  "license": {
+    "id": "ODbL-1.0",
+    "name": "Open Database License v1.0",
+    "url": "https://opendatacommons.org/licenses/odbl/1-0/",
+    "tier": "share-alike",
+    "attributionRequired": true,
+    "shareAlike": true
+  },
+  "inputLicenses": [
+    {
+      "id": "ODbL-1.0",
+      "name": "Open Database License v1.0",
+      "url": "https://opendatacommons.org/licenses/odbl/1-0/",
+      "tier": "share-alike",
+      "attributionRequired": true,
+      "shareAlike": true
+    }
+  ],
+  "providers": [
+    "OpenStreetMap contributors"
+  ],
+  "attribution": [
+    "OpenStreetMap contributors — Open Database License v1.0 (https://opendatacommons.org/licenses/odbl/1-0/)",
+    "This dataset as a whole — Open Database License v1.0 (https://opendatacommons.org/licenses/odbl/1-0/)"
+  ],
+  "region": "thailand",
+  "query": {
+    "kind": "geofabrik-pbf",
+    "source": "https://download.geofabrik.de/asia/thailand-latest.osm.pbf",
+    "sourceUpdatedAt": "2026-09-04T20:21:21Z",
+    "bbox": {
+      "west": 97,
+      "south": 5.5,
+      "east": 106,
+      "north": 20.6
+    }
+  },
+  "notes": [
+    "way と relation の座標は geometry の bounding-box center。**代表点であって、そこに立てるとは限らない。**",
+    "拾ったタグは分類の根拠になるものだけ。電話番号や営業時間は持ち帰っていない。",
+    "OSM の wikidata タグは external_ids に入れてある。対応表(osm-links)はここを土台にする。"
+  ],
+  "pipeline": "places-pipeline/1.1",
+  "generatedAt": "2026-09-05T04:49:06.068Z",
+  "files": [
+    {
+      "name": "data-0001.jsonl",
+      "format": "application/x-ndjson",
+      "rows": 83300,
+      "bytes": 50331221,
+      "sha256": "accad9801cd6cfa8a468cd726cddc99d5acaa61221cbabdddcd3312013a44688",
+      "part": 1,
+      "parts": 2
+    },
+    {
+      "name": "data-0002.jsonl",
+      "format": "application/x-ndjson",
+      "rows": 80000,
+      "bytes": 49436179,
+      "sha256": "13c02f3dbb03778bb00cb9243acccf85452200fdad61c94e7a3b495f901240e2",
+      "part": 2,
+      "parts": 2
+    }
+  ],
+  "skipped": [
+    {
+      "reason": "名前が無い",
+      "count": 218678
+    }
+  ],
+  "countryCode": "TH"
+}

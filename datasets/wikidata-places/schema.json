@@ -1,0 +1,184 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Loqi Places normalized place record",
+  "type": "object",
+  "required": [
+    "dataset",
+    "provider",
+    "source_id",
+    "license",
+    "name",
+    "kind",
+    "lat",
+    "lng",
+    "retrieved_at",
+    "loqi_place_id",
+    "record_id",
+    "record_hash"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "loqi_place_id": {
+      "type": "string",
+      "description": "Loqi の暫定共通 ID。突き合わせの結果は entity-links が持つ"
+    },
+    "record_id": {
+      "type": "string",
+      "description": "dataset:source_id。データセット内で一意"
+    },
+    "dataset": {
+      "type": "string",
+      "description": "このレコードが属するデータセット名"
+    },
+    "provider": {
+      "type": "string",
+      "description": "元データの提供元"
+    },
+    "source_id": {
+      "type": "string",
+      "description": "提供元での ID"
+    },
+    "source_url": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "提供元でのレコード URL"
+    },
+    "license": {
+      "type": "string",
+      "description": "このレコードのライセンス(SPDX)"
+    },
+    "attribution": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "配るときに添える帰属表示"
+    },
+    "name": {
+      "type": "string",
+      "description": "代表名"
+    },
+    "names": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      },
+      "description": "言語コード → 名前"
+    },
+    "kind": {
+      "type": "string",
+      "enum": [
+        "station",
+        "airport",
+        "port",
+        "temple",
+        "shrine",
+        "church",
+        "place_of_worship",
+        "castle",
+        "ruins",
+        "monument",
+        "historic_house",
+        "museum",
+        "gallery",
+        "library",
+        "theater",
+        "community_center",
+        "park",
+        "garden",
+        "zoo",
+        "aquarium",
+        "stadium",
+        "mountain",
+        "lake",
+        "river",
+        "beach",
+        "island",
+        "waterfall",
+        "hot_spring",
+        "cafe",
+        "restaurant",
+        "bar",
+        "shop",
+        "market",
+        "hotel",
+        "school",
+        "university",
+        "childcare",
+        "hospital",
+        "clinic",
+        "pharmacy",
+        "post_office",
+        "government",
+        "police",
+        "fire_station",
+        "social_facility",
+        "bank",
+        "parking",
+        "fuel_station",
+        "rental",
+        "sports",
+        "playground",
+        "entertainment",
+        "tourist_information",
+        "attraction",
+        "bridge",
+        "tower",
+        "road",
+        "settlement",
+        "neighborhood",
+        "building",
+        "other"
+      ],
+      "description": "Loqi の分類語彙"
+    },
+    "source_kinds": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "提供元での生の分類語。分類の根拠"
+    },
+    "lat": {
+      "type": "number",
+      "minimum": -90,
+      "maximum": 90
+    },
+    "lng": {
+      "type": "number",
+      "minimum": -180,
+      "maximum": 180
+    },
+    "country_code": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "ISO 3166-1 alpha-2"
+    },
+    "admin_area": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "都道府県・州など"
+    },
+    "external_ids": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      },
+      "description": "他の提供元での ID"
+    },
+    "retrieved_at": {
+      "type": "string",
+      "description": "取得時刻(ISO 8601 UTC)"
+    },
+    "record_hash": {
+      "type": "string",
+      "description": "内容の指紋。取得時刻を含まないので、更新の有無が分かる"
+    }
+  }
+}

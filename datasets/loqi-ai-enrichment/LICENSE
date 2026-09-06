@@ -1,0 +1,16 @@
+Loqi AI Enrichment (Loqi Places dataset: loqi-ai-enrichment)
+
+License: CC0-1.0 — CC0 1.0 Universal
+Full text: https://creativecommons.org/publicdomain/zero/1.0/
+
+Sources (each under its own license):
+  - Wikidata — CC0-1.0
+  - Loqi — CC0-1.0
+
+Obligations when you redistribute this dataset or anything derived from it:
+  - No attribution is required. The `attribution` field of manifest.json is provided as courtesy.
+  - No Share-Alike. You may license derived works as you like, subject to the line above.
+  - Ship the canonical license text (see the URL above) alongside any redistribution.
+
+This dataset holds records from ONE license family only. Loqi Places never merges
+license families into one file: the boundary of a source is the boundary of a dataset.

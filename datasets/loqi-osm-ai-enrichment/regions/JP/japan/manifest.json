@@ -1,0 +1,63 @@
+{
+  "dataset": "loqi-osm-ai-enrichment",
+  "title": "Loqi OSM AI Enrichment",
+  "summary": "ODbL の OSM 場所データだけを材料に、AI が意味情報を生成した派生データベース。",
+  "license": {
+    "id": "ODbL-1.0",
+    "name": "Open Database License v1.0",
+    "url": "https://opendatacommons.org/licenses/odbl/1-0/",
+    "tier": "share-alike",
+    "attributionRequired": true,
+    "shareAlike": true
+  },
+  "inputLicenses": [
+    {
+      "id": "ODbL-1.0",
+      "name": "Open Database License v1.0",
+      "url": "https://opendatacommons.org/licenses/odbl/1-0/",
+      "tier": "share-alike",
+      "attributionRequired": true,
+      "shareAlike": true
+    }
+  ],
+  "providers": [
+    "OpenStreetMap contributors",
+    "Loqi"
+  ],
+  "attribution": [
+    "OpenStreetMap contributors — Open Database License v1.0 (https://opendatacommons.org/licenses/odbl/1-0/)",
+    "Loqi — Open Database License v1.0 (https://opendatacommons.org/licenses/odbl/1-0/)",
+    "This dataset as a whole — Open Database License v1.0 (https://opendatacommons.org/licenses/odbl/1-0/)"
+  ],
+  "region": "japan",
+  "countryCode": "JP",
+  "query": {
+    "source": "osm-places",
+    "promptVersion": "places-enrichment-v2"
+  },
+  "notes": [
+    "AIが名前・分類・地域から推測したラベルであり、現地観測ではない。",
+    "入力のライセンス族ごとに独立したデータセットとして公開する。"
+  ],
+  "pipeline": "places-pipeline/1.1",
+  "generatedAt": "2026-09-04T19:27:00.331Z",
+  "files": [
+    {
+      "name": "data-7d9693c1fb305a15.jsonl",
+      "format": "application/x-ndjson",
+      "rows": 240,
+      "bytes": 117355,
+      "sha256": "7d9693c1fb305a1586cbe82861a9344af12190175faf744021d8402e331528ac",
+      "generatedAt": "2026-09-04T12:50:25.149Z"
+    },
+    {
+      "name": "data-02464fd2ced6e007.jsonl",
+      "format": "application/x-ndjson",
+      "rows": 2512,
+      "bytes": 1219218,
+      "sha256": "02464fd2ced6e0074bef52331bc783190add421289adaba04a4eaa17d76ca17f",
+      "generatedAt": "2026-09-04T19:27:00.331Z"
+    }
+  ],
+  "skipped": []
+}

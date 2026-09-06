@@ -1,0 +1,103 @@
+{
+  "dataset": "osm-places",
+  "title": "OSM Places",
+  "summary": "OpenStreetMap の POI を Loqi の正規化スキーマへ落としたもの。ODbL のまま隔離してある。",
+  "license": {
+    "id": "ODbL-1.0",
+    "name": "Open Database License v1.0",
+    "url": "https://opendatacommons.org/licenses/odbl/1-0/",
+    "tier": "share-alike",
+    "attributionRequired": true,
+    "shareAlike": true
+  },
+  "inputLicenses": [
+    {
+      "id": "ODbL-1.0",
+      "name": "Open Database License v1.0",
+      "url": "https://opendatacommons.org/licenses/odbl/1-0/",
+      "tier": "share-alike",
+      "attributionRequired": true,
+      "shareAlike": true
+    }
+  ],
+  "providers": [
+    "OpenStreetMap contributors"
+  ],
+  "attribution": [
+    "OpenStreetMap contributors — Open Database License v1.0 (https://opendatacommons.org/licenses/odbl/1-0/)",
+    "This dataset as a whole — Open Database License v1.0 (https://opendatacommons.org/licenses/odbl/1-0/)"
+  ],
+  "region": "south-korea",
+  "query": {
+    "kind": "geofabrik-pbf",
+    "source": "https://download.geofabrik.de/asia/south-korea-latest.osm.pbf",
+    "sourceUpdatedAt": "2026-09-04T20:21:21Z",
+    "bbox": {
+      "west": 124.3,
+      "south": 32.3,
+      "east": 132.4,
+      "north": 38.7
+    }
+  },
+  "notes": [
+    "way と relation の座標は geometry の bounding-box center。**代表点であって、そこに立てるとは限らない。**",
+    "拾ったタグは分類の根拠になるものだけ。電話番号や営業時間は持ち帰っていない。",
+    "OSM の wikidata タグは external_ids に入れてある。対応表(osm-links)はここを土台にする。"
+  ],
+  "pipeline": "places-pipeline/1.1",
+  "generatedAt": "2026-09-05T01:13:46.895Z",
+  "files": [
+    {
+      "name": "data-0001.jsonl",
+      "format": "application/x-ndjson",
+      "rows": 84110,
+      "bytes": 50331519,
+      "sha256": "ad08136f80a4a7593b8844c3465e6c5892a23f65c998f68b767ae8e074fe3ae6",
+      "part": 1,
+      "parts": 5
+    },
+    {
+      "name": "data-0002.jsonl",
+      "format": "application/x-ndjson",
+      "rows": 85791,
+      "bytes": 50331140,
+      "sha256": "5b902b5a5ed3285f923b41d542ee84f70a3ae75644b1f6c1929af44779da32a2",
+      "part": 2,
+      "parts": 5
+    },
+    {
+      "name": "data-0003.jsonl",
+      "format": "application/x-ndjson",
+      "rows": 85164,
+      "bytes": 50331068,
+      "sha256": "e4da3eb64a88ef56c23810810279e64e5f196d6ea539e71402825084bf1bcbec",
+      "part": 3,
+      "parts": 5
+    },
+    {
+      "name": "data-0004.jsonl",
+      "format": "application/x-ndjson",
+      "rows": 84791,
+      "bytes": 50331380,
+      "sha256": "217351757835ee0b223a0b11aa1598ac5b419fbf0a95f20f580fa89d6416ec93",
+      "part": 4,
+      "parts": 5
+    },
+    {
+      "name": "data-0005.jsonl",
+      "format": "application/x-ndjson",
+      "rows": 43520,
+      "bytes": 25746072,
+      "sha256": "27b883c7b9f95a690a2fab9fa703d3e80853332e75ba0226c43ec865d28b0a4d",
+      "part": 5,
+      "parts": 5
+    }
+  ],
+  "skipped": [
+    {
+      "reason": "名前が無い",
+      "count": 183962
+    }
+  ],
+  "countryCode": "KR"
+}

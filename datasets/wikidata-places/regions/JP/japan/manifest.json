@@ -1,0 +1,83 @@
+{
+  "dataset": "wikidata-places",
+  "title": "Wikidata Places",
+  "summary": "Wikidata の座標付き item を Loqi の正規化スキーマへ落としたもの。",
+  "license": {
+    "id": "CC0-1.0",
+    "name": "CC0 1.0 Universal",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "tier": "cc0",
+    "attributionRequired": false,
+    "shareAlike": false
+  },
+  "inputLicenses": [
+    {
+      "id": "CC0-1.0",
+      "name": "CC0 1.0 Universal",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "tier": "cc0",
+      "attributionRequired": false,
+      "shareAlike": false
+    }
+  ],
+  "providers": [
+    "Wikidata"
+  ],
+  "attribution": [
+    "Wikidata — CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/)",
+    "This dataset as a whole — CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/)"
+  ],
+  "region": "japan",
+  "query": {
+    "kind": "wikibase:box",
+    "bbox": {
+      "west": 122.9,
+      "south": 20.4,
+      "east": 154,
+      "north": 45.6
+    },
+    "country": "JP"
+  },
+  "notes": [
+    "座標は P625。分類は P31 を P279* で上位アンカーへ束ねたもので、生の P31 は source_kinds に残してある。",
+    "名前の無い item は落としている(名前が引けないものは、AI にも人にも指せない)。"
+  ],
+  "pipeline": "places-pipeline/1.1",
+  "generatedAt": "2026-09-04T02:59:08.180Z",
+  "files": [
+    {
+      "name": "data-0001.jsonl",
+      "format": "application/x-ndjson",
+      "rows": 82655,
+      "bytes": 50331501,
+      "sha256": "b540bec4eadb795a475ac84087470d72486b6a5ddcaa2d92f79c7ccc8c1650f0",
+      "part": 1,
+      "parts": 3
+    },
+    {
+      "name": "data-0002.jsonl",
+      "format": "application/x-ndjson",
+      "rows": 83333,
+      "bytes": 50331579,
+      "sha256": "d1e62faa0c235ab5006ade58699f565aebc7f2a3d0b24bf262b5e42a15f711f5",
+      "part": 2,
+      "parts": 3
+    },
+    {
+      "name": "data-0003.jsonl",
+      "format": "application/x-ndjson",
+      "rows": 24643,
+      "bytes": 14972563,
+      "sha256": "ae843f6e4f02a01e7998155daef9e590a935fb78be53d2cc504db167e281efc2",
+      "part": 3,
+      "parts": 3
+    }
+  ],
+  "skipped": [
+    {
+      "reason": "名前が無い",
+      "count": 1776
+    }
+  ],
+  "countryCode": "JP"
+}

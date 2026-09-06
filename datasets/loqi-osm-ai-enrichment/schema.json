@@ -1,0 +1,134 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Loqi Places AI enrichment",
+  "type": "object",
+  "required": [
+    "loqi_place_id",
+    "source_record_id",
+    "source",
+    "input_license",
+    "enrichment",
+    "model",
+    "prompt_version",
+    "generated_at",
+    "input_hash"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "loqi_place_id": {
+      "type": "string"
+    },
+    "source_record_id": {
+      "type": "string",
+      "description": "材料にしたレコード(dataset:source_id)"
+    },
+    "source": {
+      "type": "string",
+      "description": "provider:id 形式の出所。例 wikidata:Q123"
+    },
+    "input_license": {
+      "type": "string",
+      "description": "材料のライセンス。同じファイルには一つのライセンス族だけが入る"
+    },
+    "enrichment": {
+      "type": "object",
+      "required": [
+        "vibes",
+        "activities",
+        "suitable_for",
+        "tags"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "vibes": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "quiet",
+              "lively",
+              "nostalgic",
+              "scenic",
+              "sacred",
+              "modern",
+              "rustic",
+              "hidden",
+              "grand",
+              "cozy",
+              "industrial",
+              "natural",
+              "crowded",
+              "solemn"
+            ]
+          }
+        },
+        "activities": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "walking",
+              "photography",
+              "eating",
+              "drinking",
+              "shopping",
+              "praying",
+              "learning",
+              "resting",
+              "swimming",
+              "hiking",
+              "viewing",
+              "reading",
+              "bathing",
+              "playing",
+              "commuting"
+            ]
+          }
+        },
+        "suitable_for": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "solo_trip",
+              "family",
+              "with_kids",
+              "date",
+              "group",
+              "rainy_day",
+              "sunny_day",
+              "night",
+              "early_morning",
+              "slow_travel",
+              "quick_stop",
+              "budget",
+              "accessible"
+            ]
+          }
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "自由記述。検索の主役にはしない"
+        }
+      }
+    },
+    "model": {
+      "type": "string",
+      "description": "生成したモデル"
+    },
+    "prompt_version": {
+      "type": "string",
+      "description": "プロンプトの版。変えたら作り直す目印"
+    },
+    "generated_at": {
+      "type": "string"
+    },
+    "input_hash": {
+      "type": "string",
+      "description": "材料レコードの record_hash。元が変われば作り直せる"
+    }
+  }
+}

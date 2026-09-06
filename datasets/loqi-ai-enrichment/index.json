@@ -1,0 +1,51 @@
+{
+  "dataset": "loqi-ai-enrichment",
+  "title": "Loqi AI Enrichment",
+  "summary": "CC0 の場所データだけを材料に、AI が意味情報(タグ・雰囲気・活動・向き)を生成したもの。",
+  "license": {
+    "id": "CC0-1.0",
+    "name": "CC0 1.0 Universal",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "tier": "cc0",
+    "attributionRequired": false,
+    "shareAlike": false
+  },
+  "providers": [
+    "Wikidata",
+    "Loqi"
+  ],
+  "attribution": [
+    "Wikidata — CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/)",
+    "Loqi — CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/)",
+    "This dataset as a whole — CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/)"
+  ],
+  "path": "datasets/loqi-ai-enrichment/",
+  "generatedAt": "2026-09-04T19:27:00.331Z",
+  "regions": [
+    {
+      "id": "japan",
+      "countryCode": "JP",
+      "generatedAt": "2026-09-04T19:27:00.331Z",
+      "path": "datasets/loqi-ai-enrichment/regions/JP/japan/",
+      "manifest": "datasets/loqi-ai-enrichment/regions/JP/japan/manifest.json",
+      "files": [
+        {
+          "name": "data-2ee97b3e676a302c.jsonl",
+          "format": "application/x-ndjson",
+          "rows": 240,
+          "bytes": 116088,
+          "sha256": "2ee97b3e676a302c46c02188c4076dc5a07c0dbc414641f4568473728c924dee",
+          "generatedAt": "2026-09-04T12:50:25.149Z"
+        },
+        {
+          "name": "data-b1b3e26485c1af04.jsonl",
+          "format": "application/x-ndjson",
+          "rows": 2560,
+          "bytes": 1239925,
+          "sha256": "b1b3e26485c1af04ded9d329b79de4b09ff75e51f1300f7cd33eed040fff8621",
+          "generatedAt": "2026-09-04T19:27:00.331Z"
+        }
+      ]
+    }
+  ]
+}

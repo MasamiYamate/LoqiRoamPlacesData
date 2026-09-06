@@ -1,0 +1,103 @@
+{
+  "dataset": "osm-places",
+  "title": "OSM Places",
+  "summary": "OpenStreetMap の POI を Loqi の正規化スキーマへ落としたもの。ODbL のまま隔離してある。",
+  "license": {
+    "id": "ODbL-1.0",
+    "name": "Open Database License v1.0",
+    "url": "https://opendatacommons.org/licenses/odbl/1-0/",
+    "tier": "share-alike",
+    "attributionRequired": true,
+    "shareAlike": true
+  },
+  "inputLicenses": [
+    {
+      "id": "ODbL-1.0",
+      "name": "Open Database License v1.0",
+      "url": "https://opendatacommons.org/licenses/odbl/1-0/",
+      "tier": "share-alike",
+      "attributionRequired": true,
+      "shareAlike": true
+    }
+  ],
+  "providers": [
+    "OpenStreetMap contributors"
+  ],
+  "attribution": [
+    "OpenStreetMap contributors — Open Database License v1.0 (https://opendatacommons.org/licenses/odbl/1-0/)",
+    "This dataset as a whole — Open Database License v1.0 (https://opendatacommons.org/licenses/odbl/1-0/)"
+  ],
+  "region": "philippines",
+  "query": {
+    "kind": "geofabrik-pbf",
+    "source": "https://download.geofabrik.de/asia/philippines-latest.osm.pbf",
+    "sourceUpdatedAt": "2026-09-04T20:21:21Z",
+    "bbox": {
+      "west": 116.5,
+      "south": 4.3,
+      "east": 127,
+      "north": 21.3
+    }
+  },
+  "notes": [
+    "way と relation の座標は geometry の bounding-box center。**代表点であって、そこに立てるとは限らない。**",
+    "拾ったタグは分類の根拠になるものだけ。電話番号や営業時間は持ち帰っていない。",
+    "OSM の wikidata タグは external_ids に入れてある。対応表(osm-links)はここを土台にする。"
+  ],
+  "pipeline": "places-pipeline/1.1",
+  "generatedAt": "2026-09-05T12:36:56.876Z",
+  "files": [
+    {
+      "name": "data-0001.jsonl",
+      "format": "application/x-ndjson",
+      "rows": 86746,
+      "bytes": 50331642,
+      "sha256": "87d1be572c5e84262ec23d40ccd53f93dee74527073712d9914c14c83fc18c31",
+      "part": 1,
+      "parts": 5
+    },
+    {
+      "name": "data-0002.jsonl",
+      "format": "application/x-ndjson",
+      "rows": 87038,
+      "bytes": 50331640,
+      "sha256": "c8510d0d63c5b1cbab70c9aa8a317e8aa952556f078801d9f70eff9a5ffb2d39",
+      "part": 2,
+      "parts": 5
+    },
+    {
+      "name": "data-0003.jsonl",
+      "format": "application/x-ndjson",
+      "rows": 86272,
+      "bytes": 50331510,
+      "sha256": "112d18833c0cd3374f240146555eeb5b05716c648961ef45d8532fdbad54b80c",
+      "part": 3,
+      "parts": 5
+    },
+    {
+      "name": "data-0004.jsonl",
+      "format": "application/x-ndjson",
+      "rows": 84625,
+      "bytes": 50331638,
+      "sha256": "475ee6d9c1542c2047e73ddaa6378d0bb8b6dba904df605e18f7240d70b2c700",
+      "part": 4,
+      "parts": 5
+    },
+    {
+      "name": "data-0005.jsonl",
+      "format": "application/x-ndjson",
+      "rows": 40261,
+      "bytes": 24072572,
+      "sha256": "53a84f37210476e152fe01683b3e93a9bd723774aaa8ee7b2c8b31b8d371c4d0",
+      "part": 5,
+      "parts": 5
+    }
+  ],
+  "skipped": [
+    {
+      "reason": "名前が無い",
+      "count": 206603
+    }
+  ],
+  "countryCode": "PH"
+}

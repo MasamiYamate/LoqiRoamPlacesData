@@ -1,0 +1,73 @@
+{
+  "dataset": "entity-links/osm-links",
+  "title": "Entity links (ODbL side)",
+  "summary": "Wikidata と OSM のレコードの対応表。OSM を見て作ったので ODbL 側に置く。",
+  "license": {
+    "id": "ODbL-1.0",
+    "name": "Open Database License v1.0",
+    "url": "https://opendatacommons.org/licenses/odbl/1-0/",
+    "tier": "share-alike",
+    "attributionRequired": true,
+    "shareAlike": true
+  },
+  "inputLicenses": [
+    {
+      "id": "CC0-1.0",
+      "name": "CC0 1.0 Universal",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "tier": "cc0",
+      "attributionRequired": false,
+      "shareAlike": false
+    },
+    {
+      "id": "ODbL-1.0",
+      "name": "Open Database License v1.0",
+      "url": "https://opendatacommons.org/licenses/odbl/1-0/",
+      "tier": "share-alike",
+      "attributionRequired": true,
+      "shareAlike": true
+    }
+  ],
+  "providers": [
+    "Wikidata",
+    "OpenStreetMap contributors"
+  ],
+  "attribution": [
+    "Wikidata — CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/)",
+    "OpenStreetMap contributors — Open Database License v1.0 (https://opendatacommons.org/licenses/odbl/1-0/)",
+    "This dataset as a whole — Open Database License v1.0 (https://opendatacommons.org/licenses/odbl/1-0/)"
+  ],
+  "region": "thailand",
+  "query": {
+    "left": "wikidata-places",
+    "right": "osm-places",
+    "externalIdKey": "wikidata"
+  },
+  "notes": [
+    "候補が二つ以上見えたときは、一行も書いていない。決められないものを決めたことにしない。",
+    "確度 1.0 は外部 ID の一致だけ。名前と距離による推測には 1.0 を付けない。",
+    "外部 ID の照合は OSM の wikidata タグから。OSM の誰かが調べて書いたもので、こちらの推測ではない。"
+  ],
+  "pipeline": "places-pipeline/1.1",
+  "generatedAt": "2026-09-05T04:49:12.026Z",
+  "files": [
+    {
+      "name": "data.jsonl",
+      "format": "application/x-ndjson",
+      "rows": 7835,
+      "bytes": 2885156,
+      "sha256": "7cb878cacfed230dc0d123c3f553ffa39bc8ccd04e303a9b0de3c15265abf2c3"
+    }
+  ],
+  "skipped": [
+    {
+      "reason": "候補が絞れない (name+distance)",
+      "count": 707
+    },
+    {
+      "reason": "候補が絞れない (external-id)",
+      "count": 56
+    }
+  ],
+  "countryCode": "TH"
+}

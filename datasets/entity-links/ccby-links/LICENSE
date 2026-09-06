@@ -1,0 +1,16 @@
+Entity links (CC BY side) (Loqi Places dataset: entity-links/ccby-links)
+
+License: CC-BY-4.0 — Creative Commons Attribution 4.0 International
+Full text: https://creativecommons.org/licenses/by/4.0/
+
+Sources (each under its own license):
+  - Wikidata — CC0-1.0
+  - GeoNames — CC-BY-4.0
+
+Obligations when you redistribute this dataset or anything derived from it:
+  - Attribution is required. Keep the `attribution` field of manifest.json with the data.
+  - No Share-Alike. You may license derived works as you like, subject to the line above.
+  - Ship the canonical license text (see the URL above) alongside any redistribution.
+
+This dataset holds records from ONE license family only. Loqi Places never merges
+license families into one file: the boundary of a source is the boundary of a dataset.

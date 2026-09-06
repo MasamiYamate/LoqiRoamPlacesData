@@ -1,0 +1,76 @@
+{
+  "dataset": "osm-places",
+  "title": "OSM Places",
+  "summary": "OpenStreetMap の POI を Loqi の正規化スキーマへ落としたもの。ODbL のまま隔離してある。",
+  "license": {
+    "id": "ODbL-1.0",
+    "name": "Open Database License v1.0",
+    "url": "https://opendatacommons.org/licenses/odbl/1-0/",
+    "tier": "share-alike",
+    "attributionRequired": true,
+    "shareAlike": true
+  },
+  "inputLicenses": [
+    {
+      "id": "ODbL-1.0",
+      "name": "Open Database License v1.0",
+      "url": "https://opendatacommons.org/licenses/odbl/1-0/",
+      "tier": "share-alike",
+      "attributionRequired": true,
+      "shareAlike": true
+    }
+  ],
+  "providers": [
+    "OpenStreetMap contributors"
+  ],
+  "attribution": [
+    "OpenStreetMap contributors — Open Database License v1.0 (https://opendatacommons.org/licenses/odbl/1-0/)",
+    "This dataset as a whole — Open Database License v1.0 (https://opendatacommons.org/licenses/odbl/1-0/)"
+  ],
+  "region": "vietnam",
+  "query": {
+    "kind": "geofabrik-pbf",
+    "source": "https://download.geofabrik.de/asia/vietnam-latest.osm.pbf",
+    "sourceUpdatedAt": "2026-09-04T20:21:21Z",
+    "bbox": {
+      "west": 102,
+      "south": 8,
+      "east": 110,
+      "north": 23.5
+    }
+  },
+  "notes": [
+    "way と relation の座標は geometry の bounding-box center。**代表点であって、そこに立てるとは限らない。**",
+    "拾ったタグは分類の根拠になるものだけ。電話番号や営業時間は持ち帰っていない。",
+    "OSM の wikidata タグは external_ids に入れてある。対応表(osm-links)はここを土台にする。"
+  ],
+  "pipeline": "places-pipeline/1.1",
+  "generatedAt": "2026-09-05T04:56:33.735Z",
+  "files": [
+    {
+      "name": "data-0001.jsonl",
+      "format": "application/x-ndjson",
+      "rows": 85936,
+      "bytes": 50331353,
+      "sha256": "4e7b46d44858c1f29d2cbd76907bd672ee994d1944185eae8860eba3d43410f4",
+      "part": 1,
+      "parts": 2
+    },
+    {
+      "name": "data-0002.jsonl",
+      "format": "application/x-ndjson",
+      "rows": 35416,
+      "bytes": 21339754,
+      "sha256": "253e7a2eee897069eb28f487943f8e97f5d1ed87738fa86761680da7e3801a17",
+      "part": 2,
+      "parts": 2
+    }
+  ],
+  "skipped": [
+    {
+      "reason": "名前が無い",
+      "count": 91035
+    }
+  ],
+  "countryCode": "VN"
+}

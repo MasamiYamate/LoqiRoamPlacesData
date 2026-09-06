@@ -1,0 +1,393 @@
+{
+  "dataset": "osm-places",
+  "title": "OSM Places",
+  "summary": "OpenStreetMap の POI を Loqi の正規化スキーマへ落としたもの。ODbL のまま隔離してある。",
+  "license": {
+    "id": "ODbL-1.0",
+    "name": "Open Database License v1.0",
+    "url": "https://opendatacommons.org/licenses/odbl/1-0/",
+    "tier": "share-alike",
+    "attributionRequired": true,
+    "shareAlike": true
+  },
+  "providers": [
+    "OpenStreetMap contributors"
+  ],
+  "attribution": [
+    "OpenStreetMap contributors — Open Database License v1.0 (https://opendatacommons.org/licenses/odbl/1-0/)",
+    "This dataset as a whole — Open Database License v1.0 (https://opendatacommons.org/licenses/odbl/1-0/)"
+  ],
+  "path": "datasets/osm-places/",
+  "generatedAt": "2026-09-05T12:37:02.313Z",
+  "regions": [
+    {
+      "id": "japan",
+      "countryCode": "JP",
+      "generatedAt": "2026-09-04T00:37:49.125Z",
+      "path": "datasets/osm-places/regions/JP/japan/",
+      "manifest": "datasets/osm-places/regions/JP/japan/manifest.json",
+      "files": [
+        {
+          "name": "data-0001.jsonl",
+          "format": "application/x-ndjson",
+          "rows": 80299,
+          "bytes": 50331139,
+          "sha256": "88a69aa17d86d9b263c28cfa030c1942cbe7ece813969551ab37fe458a202e04",
+          "part": 1,
+          "parts": 18
+        },
+        {
+          "name": "data-0002.jsonl",
+          "format": "application/x-ndjson",
+          "rows": 80239,
+          "bytes": 50331245,
+          "sha256": "32d56fc8ff2c896eed453122d2f94f3a0b1768c8a40d2ca3299da8bf1f2cc86e",
+          "part": 2,
+          "parts": 18
+        },
+        {
+          "name": "data-0003.jsonl",
+          "format": "application/x-ndjson",
+          "rows": 81966,
+          "bytes": 50331586,
+          "sha256": "72fc9b2c3fa4bc48059728381e7af735144552a250295ab5a06313f5264fab74",
+          "part": 3,
+          "parts": 18
+        },
+        {
+          "name": "data-0004.jsonl",
+          "format": "application/x-ndjson",
+          "rows": 81747,
+          "bytes": 50331151,
+          "sha256": "5096b03a1718727b613d79f4329434463c2d01db37fa05c4f74f5eafa2b2c900",
+          "part": 4,
+          "parts": 18
+        },
+        {
+          "name": "data-0005.jsonl",
+          "format": "application/x-ndjson",
+          "rows": 82292,
+          "bytes": 50331592,
+          "sha256": "02b3c7d23589d5ea1ea2cb13e1d9199efb7ad9846de85cad4d6bacdeec743fb8",
+          "part": 5,
+          "parts": 18
+        },
+        {
+          "name": "data-0006.jsonl",
+          "format": "application/x-ndjson",
+          "rows": 82274,
+          "bytes": 50331289,
+          "sha256": "e0756e330c6f2ac8bfb46613966257ada0dae10fdce66923f3472ba22ebdbb5b",
+          "part": 6,
+          "parts": 18
+        },
+        {
+          "name": "data-0007.jsonl",
+          "format": "application/x-ndjson",
+          "rows": 82021,
+          "bytes": 50331021,
+          "sha256": "4c9a88785ab2aae5a15d62e3ece8b8c26accfdcc2f4a5556158b15b405072d12",
+          "part": 7,
+          "parts": 18
+        },
+        {
+          "name": "data-0008.jsonl",
+          "format": "application/x-ndjson",
+          "rows": 81361,
+          "bytes": 50331190,
+          "sha256": "0ad598ffb3f01d5714a20b207daf4d968a53eec1d771d21f3b7bef0cd05ee2dc",
+          "part": 8,
+          "parts": 18
+        },
+        {
+          "name": "data-0009.jsonl",
+          "format": "application/x-ndjson",
+          "rows": 81968,
+          "bytes": 50331322,
+          "sha256": "4b89a1bb980a3f4949c6a8e55f77076903fd2e9a34ea599bfc3124f7dbfa7173",
+          "part": 9,
+          "parts": 18
+        },
+        {
+          "name": "data-0010.jsonl",
+          "format": "application/x-ndjson",
+          "rows": 81899,
+          "bytes": 50331296,
+          "sha256": "32156a17d15a72187c749d6bad102934646680ae9e46669ecf91d2f7cb555e03",
+          "part": 10,
+          "parts": 18
+        },
+        {
+          "name": "data-0011.jsonl",
+          "format": "application/x-ndjson",
+          "rows": 81129,
+          "bytes": 50331271,
+          "sha256": "b78383cfbae0a70fdd344dcb69003067b89ef0d7256b7439a4abfac0e13f75f6",
+          "part": 11,
+          "parts": 18
+        },
+        {
+          "name": "data-0012.jsonl",
+          "format": "application/x-ndjson",
+          "rows": 81053,
+          "bytes": 50331516,
+          "sha256": "8331332809b6a3524cca73f0d6616b028a63984775b45abb15a18620bae5c5c8",
+          "part": 12,
+          "parts": 18
+        },
+        {
+          "name": "data-0013.jsonl",
+          "format": "application/x-ndjson",
+          "rows": 80986,
+          "bytes": 50330998,
+          "sha256": "e11c0debc0ac338e7bf0715adbb395e1e2ad69d7114403469bee6944252f338f",
+          "part": 13,
+          "parts": 18
+        },
+        {
+          "name": "data-0014.jsonl",
+          "format": "application/x-ndjson",
+          "rows": 80701,
+          "bytes": 50331585,
+          "sha256": "59b7716aa03c3863e1ac7e664f1c2923a850b9281f2683dbeb5a4d024f3fd8ab",
+          "part": 14,
+          "parts": 18
+        },
+        {
+          "name": "data-0015.jsonl",
+          "format": "application/x-ndjson",
+          "rows": 81144,
+          "bytes": 50331363,
+          "sha256": "92817cb6c99a4d30b558b91fe256bc1a035c0600d065d7670f523c30fcfbce10",
+          "part": 15,
+          "parts": 18
+        },
+        {
+          "name": "data-0016.jsonl",
+          "format": "application/x-ndjson",
+          "rows": 81215,
+          "bytes": 50331127,
+          "sha256": "f013ff12bad167629590d057276bc9d9f197d47ae62d74a93702bbe63c87f463",
+          "part": 16,
+          "parts": 18
+        },
+        {
+          "name": "data-0017.jsonl",
+          "format": "application/x-ndjson",
+          "rows": 80562,
+          "bytes": 50331189,
+          "sha256": "17add51dba738831e9c5bc4c7a4e3bb05fca5152a796a8d36054340e490c070a",
+          "part": 17,
+          "parts": 18
+        },
+        {
+          "name": "data-0018.jsonl",
+          "format": "application/x-ndjson",
+          "rows": 66114,
+          "bytes": 41459735,
+          "sha256": "8ccb20c94cd05ee73f915bd1e4586d81f1fc469c3d175026396f3a1264647dd4",
+          "part": 18,
+          "parts": 18
+        }
+      ]
+    },
+    {
+      "id": "south-korea",
+      "countryCode": "KR",
+      "generatedAt": "2026-09-05T01:13:46.895Z",
+      "path": "datasets/osm-places/regions/KR/south-korea/",
+      "manifest": "datasets/osm-places/regions/KR/south-korea/manifest.json",
+      "files": [
+        {
+          "name": "data-0001.jsonl",
+          "format": "application/x-ndjson",
+          "rows": 84110,
+          "bytes": 50331519,
+          "sha256": "ad08136f80a4a7593b8844c3465e6c5892a23f65c998f68b767ae8e074fe3ae6",
+          "part": 1,
+          "parts": 5
+        },
+        {
+          "name": "data-0002.jsonl",
+          "format": "application/x-ndjson",
+          "rows": 85791,
+          "bytes": 50331140,
+          "sha256": "5b902b5a5ed3285f923b41d542ee84f70a3ae75644b1f6c1929af44779da32a2",
+          "part": 2,
+          "parts": 5
+        },
+        {
+          "name": "data-0003.jsonl",
+          "format": "application/x-ndjson",
+          "rows": 85164,
+          "bytes": 50331068,
+          "sha256": "e4da3eb64a88ef56c23810810279e64e5f196d6ea539e71402825084bf1bcbec",
+          "part": 3,
+          "parts": 5
+        },
+        {
+          "name": "data-0004.jsonl",
+          "format": "application/x-ndjson",
+          "rows": 84791,
+          "bytes": 50331380,
+          "sha256": "217351757835ee0b223a0b11aa1598ac5b419fbf0a95f20f580fa89d6416ec93",
+          "part": 4,
+          "parts": 5
+        },
+        {
+          "name": "data-0005.jsonl",
+          "format": "application/x-ndjson",
+          "rows": 43520,
+          "bytes": 25746072,
+          "sha256": "27b883c7b9f95a690a2fab9fa703d3e80853332e75ba0226c43ec865d28b0a4d",
+          "part": 5,
+          "parts": 5
+        }
+      ]
+    },
+    {
+      "id": "philippines",
+      "countryCode": "PH",
+      "generatedAt": "2026-09-05T12:36:56.876Z",
+      "path": "datasets/osm-places/regions/PH/philippines/",
+      "manifest": "datasets/osm-places/regions/PH/philippines/manifest.json",
+      "files": [
+        {
+          "name": "data-0001.jsonl",
+          "format": "application/x-ndjson",
+          "rows": 86746,
+          "bytes": 50331642,
+          "sha256": "87d1be572c5e84262ec23d40ccd53f93dee74527073712d9914c14c83fc18c31",
+          "part": 1,
+          "parts": 5
+        },
+        {
+          "name": "data-0002.jsonl",
+          "format": "application/x-ndjson",
+          "rows": 87038,
+          "bytes": 50331640,
+          "sha256": "c8510d0d63c5b1cbab70c9aa8a317e8aa952556f078801d9f70eff9a5ffb2d39",
+          "part": 2,
+          "parts": 5
+        },
+        {
+          "name": "data-0003.jsonl",
+          "format": "application/x-ndjson",
+          "rows": 86272,
+          "bytes": 50331510,
+          "sha256": "112d18833c0cd3374f240146555eeb5b05716c648961ef45d8532fdbad54b80c",
+          "part": 3,
+          "parts": 5
+        },
+        {
+          "name": "data-0004.jsonl",
+          "format": "application/x-ndjson",
+          "rows": 84625,
+          "bytes": 50331638,
+          "sha256": "475ee6d9c1542c2047e73ddaa6378d0bb8b6dba904df605e18f7240d70b2c700",
+          "part": 4,
+          "parts": 5
+        },
+        {
+          "name": "data-0005.jsonl",
+          "format": "application/x-ndjson",
+          "rows": 40261,
+          "bytes": 24072572,
+          "sha256": "53a84f37210476e152fe01683b3e93a9bd723774aaa8ee7b2c8b31b8d371c4d0",
+          "part": 5,
+          "parts": 5
+        }
+      ]
+    },
+    {
+      "id": "thailand",
+      "countryCode": "TH",
+      "generatedAt": "2026-09-05T04:49:06.068Z",
+      "path": "datasets/osm-places/regions/TH/thailand/",
+      "manifest": "datasets/osm-places/regions/TH/thailand/manifest.json",
+      "files": [
+        {
+          "name": "data-0001.jsonl",
+          "format": "application/x-ndjson",
+          "rows": 83300,
+          "bytes": 50331221,
+          "sha256": "accad9801cd6cfa8a468cd726cddc99d5acaa61221cbabdddcd3312013a44688",
+          "part": 1,
+          "parts": 2
+        },
+        {
+          "name": "data-0002.jsonl",
+          "format": "application/x-ndjson",
+          "rows": 80000,
+          "bytes": 49436179,
+          "sha256": "13c02f3dbb03778bb00cb9243acccf85452200fdad61c94e7a3b495f901240e2",
+          "part": 2,
+          "parts": 2
+        }
+      ]
+    },
+    {
+      "id": "taiwan",
+      "countryCode": "TW",
+      "generatedAt": "2026-09-05T04:42:37.423Z",
+      "path": "datasets/osm-places/regions/TW/taiwan/",
+      "manifest": "datasets/osm-places/regions/TW/taiwan/manifest.json",
+      "files": [
+        {
+          "name": "data-0001.jsonl",
+          "format": "application/x-ndjson",
+          "rows": 83093,
+          "bytes": 50331114,
+          "sha256": "66c38844302207e3508ecdaec63961afde42bea014974a0b7990286f54ace3b4",
+          "part": 1,
+          "parts": 3
+        },
+        {
+          "name": "data-0002.jsonl",
+          "format": "application/x-ndjson",
+          "rows": 82192,
+          "bytes": 50331407,
+          "sha256": "07aec24fd56c7ceb6fd07da0d22530f1f19c059e1edd19d615a21c08fda2f63f",
+          "part": 2,
+          "parts": 3
+        },
+        {
+          "name": "data-0003.jsonl",
+          "format": "application/x-ndjson",
+          "rows": 53473,
+          "bytes": 33149709,
+          "sha256": "6431e2d242f7926a500ce317c9df5040df1b5b074a867f67e4887e7e8abc6685",
+          "part": 3,
+          "parts": 3
+        }
+      ]
+    },
+    {
+      "id": "vietnam",
+      "countryCode": "VN",
+      "generatedAt": "2026-09-05T04:56:33.735Z",
+      "path": "datasets/osm-places/regions/VN/vietnam/",
+      "manifest": "datasets/osm-places/regions/VN/vietnam/manifest.json",
+      "files": [
+        {
+          "name": "data-0001.jsonl",
+          "format": "application/x-ndjson",
+          "rows": 85936,
+          "bytes": 50331353,
+          "sha256": "4e7b46d44858c1f29d2cbd76907bd672ee994d1944185eae8860eba3d43410f4",
+          "part": 1,
+          "parts": 2
+        },
+        {
+          "name": "data-0002.jsonl",
+          "format": "application/x-ndjson",
+          "rows": 35416,
+          "bytes": 21339754,
+          "sha256": "253e7a2eee897069eb28f487943f8e97f5d1ed87738fa86761680da7e3801a17",
+          "part": 2,
+          "parts": 2
+        }
+      ]
+    }
+  ]
+}

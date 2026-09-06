@@ -1,0 +1,63 @@
+{
+  "dataset": "wikidata-places",
+  "title": "Wikidata Places",
+  "summary": "Wikidata の座標付き item を Loqi の正規化スキーマへ落としたもの。",
+  "license": {
+    "id": "CC0-1.0",
+    "name": "CC0 1.0 Universal",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "tier": "cc0",
+    "attributionRequired": false,
+    "shareAlike": false
+  },
+  "inputLicenses": [
+    {
+      "id": "CC0-1.0",
+      "name": "CC0 1.0 Universal",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "tier": "cc0",
+      "attributionRequired": false,
+      "shareAlike": false
+    }
+  ],
+  "providers": [
+    "Wikidata"
+  ],
+  "attribution": [
+    "Wikidata — CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/)",
+    "This dataset as a whole — CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/)"
+  ],
+  "region": "thailand",
+  "query": {
+    "kind": "wikibase:box",
+    "bbox": {
+      "west": 97,
+      "south": 5.5,
+      "east": 106,
+      "north": 20.6
+    },
+    "country": "TH"
+  },
+  "notes": [
+    "座標は P625。分類は P31 を P279* で上位アンカーへ束ねたもので、生の P31 は source_kinds に残してある。",
+    "名前の無い item は落としている(名前が引けないものは、AI にも人にも指せない)。"
+  ],
+  "pipeline": "places-pipeline/1.1",
+  "generatedAt": "2026-09-05T04:48:12.343Z",
+  "files": [
+    {
+      "name": "data.jsonl",
+      "format": "application/x-ndjson",
+      "rows": 37459,
+      "bytes": 22491090,
+      "sha256": "69865981c105391f402d7ac0fbfe123fe241bc3ec8d1f4c23a97ec4695588e74"
+    }
+  ],
+  "skipped": [
+    {
+      "reason": "名前が無い",
+      "count": 4057
+    }
+  ],
+  "countryCode": "TH"
+}

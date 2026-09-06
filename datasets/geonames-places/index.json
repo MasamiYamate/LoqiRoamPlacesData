@@ -1,0 +1,162 @@
+{
+  "dataset": "geonames-places",
+  "title": "GeoNames Places",
+  "summary": "GeoNames の地名データを Loqi の正規化スキーマへ落としたもの。",
+  "license": {
+    "id": "CC-BY-4.0",
+    "name": "Creative Commons Attribution 4.0 International",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "tier": "permissive",
+    "attributionRequired": true,
+    "shareAlike": false
+  },
+  "providers": [
+    "GeoNames"
+  ],
+  "attribution": [
+    "GeoNames — Creative Commons Attribution 4.0 International (https://creativecommons.org/licenses/by/4.0/)",
+    "This dataset as a whole — Creative Commons Attribution 4.0 International (https://creativecommons.org/licenses/by/4.0/)"
+  ],
+  "path": "datasets/geonames-places/",
+  "generatedAt": "2026-09-05T12:37:02.313Z",
+  "regions": [
+    {
+      "id": "japan",
+      "countryCode": "JP",
+      "generatedAt": "2026-09-04T00:36:41.929Z",
+      "path": "datasets/geonames-places/regions/JP/japan/",
+      "manifest": "datasets/geonames-places/regions/JP/japan/manifest.json",
+      "files": [
+        {
+          "name": "data-0001.jsonl",
+          "format": "application/x-ndjson",
+          "rows": 92296,
+          "bytes": 50331429,
+          "sha256": "699180bc78c67870910ab40865881404e739577f96506950123c08f610377b90",
+          "part": 1,
+          "parts": 2
+        },
+        {
+          "name": "data-0002.jsonl",
+          "format": "application/x-ndjson",
+          "rows": 6670,
+          "bytes": 3757606,
+          "sha256": "247032445ebb4cb72f704cab42110d703806b9c50b45bea5fe5a973ca942299d",
+          "part": 2,
+          "parts": 2
+        }
+      ]
+    },
+    {
+      "id": "south-korea",
+      "countryCode": "KR",
+      "generatedAt": "2026-09-05T01:08:01.064Z",
+      "path": "datasets/geonames-places/regions/KR/south-korea/",
+      "manifest": "datasets/geonames-places/regions/KR/south-korea/manifest.json",
+      "files": [
+        {
+          "name": "data-0001.jsonl",
+          "format": "application/x-ndjson",
+          "rows": 91845,
+          "bytes": 50331200,
+          "sha256": "d4ec84fefe0202caff6bae25acb4d56dc909b60f9d4a4d9f7971e7347ab69163",
+          "part": 1,
+          "parts": 2
+        },
+        {
+          "name": "data-0002.jsonl",
+          "format": "application/x-ndjson",
+          "rows": 45979,
+          "bytes": 25570496,
+          "sha256": "61cf2735423b086d98b52e684e96fe0e357e6baf16898701ad82d16c7087b1ba",
+          "part": 2,
+          "parts": 2
+        }
+      ]
+    },
+    {
+      "id": "philippines",
+      "countryCode": "PH",
+      "generatedAt": "2026-09-05T05:07:45.305Z",
+      "path": "datasets/geonames-places/regions/PH/philippines/",
+      "manifest": "datasets/geonames-places/regions/PH/philippines/manifest.json",
+      "files": [
+        {
+          "name": "data.jsonl",
+          "format": "application/x-ndjson",
+          "rows": 75664,
+          "bytes": 41418720,
+          "sha256": "b9dd5a965a84cecd0b68ee3c3341f98ef70da464449efeddfd78661cfa8eb1db"
+        }
+      ]
+    },
+    {
+      "id": "thailand",
+      "countryCode": "TH",
+      "generatedAt": "2026-09-05T04:48:18.226Z",
+      "path": "datasets/geonames-places/regions/TH/thailand/",
+      "manifest": "datasets/geonames-places/regions/TH/thailand/manifest.json",
+      "files": [
+        {
+          "name": "data-0001.jsonl",
+          "format": "application/x-ndjson",
+          "rows": 90899,
+          "bytes": 50331141,
+          "sha256": "2a27fc87fd215f46bce29822e0005b74f2345a7bc8b1f0524e01d16a9024480f",
+          "part": 1,
+          "parts": 3
+        },
+        {
+          "name": "data-0002.jsonl",
+          "format": "application/x-ndjson",
+          "rows": 90244,
+          "bytes": 50331140,
+          "sha256": "a61176276f132906faafee6fbcf22e0994faf310dfc06cc29b716ea97389cea4",
+          "part": 2,
+          "parts": 3
+        },
+        {
+          "name": "data-0003.jsonl",
+          "format": "application/x-ndjson",
+          "rows": 75144,
+          "bytes": 41779264,
+          "sha256": "d9dc32b9c1f3d1d101eaa7eaa1f789bdff135a5923f1160d559976e77e5a6e32",
+          "part": 3,
+          "parts": 3
+        }
+      ]
+    },
+    {
+      "id": "taiwan",
+      "countryCode": "TW",
+      "generatedAt": "2026-09-05T04:39:46.401Z",
+      "path": "datasets/geonames-places/regions/TW/taiwan/",
+      "manifest": "datasets/geonames-places/regions/TW/taiwan/manifest.json",
+      "files": [
+        {
+          "name": "data.jsonl",
+          "format": "application/x-ndjson",
+          "rows": 36801,
+          "bytes": 19941553,
+          "sha256": "4478dfc64cf2458fd6f0a35774f9f1d79f48db52f3c2f06b4b2a4b81a28286e9"
+        }
+      ]
+    },
+    {
+      "id": "vietnam",
+      "countryCode": "VN",
+      "generatedAt": "2026-09-05T04:53:40.738Z",
+      "path": "datasets/geonames-places/regions/VN/vietnam/",
+      "manifest": "datasets/geonames-places/regions/VN/vietnam/manifest.json",
+      "files": [
+        {
+          "name": "data.jsonl",
+          "format": "application/x-ndjson",
+          "rows": 55676,
+          "bytes": 30490680,
+          "sha256": "5d7b068ea066437473b99d284f2422ea1e6f996d783a622d577af88b70c3d101"
+        }
+      ]
+    }
+  ]
+}

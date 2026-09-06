@@ -1,0 +1,78 @@
+{
+  "dataset": "geonames-places",
+  "title": "GeoNames Places",
+  "summary": "GeoNames の地名データを Loqi の正規化スキーマへ落としたもの。",
+  "license": {
+    "id": "CC-BY-4.0",
+    "name": "Creative Commons Attribution 4.0 International",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "tier": "permissive",
+    "attributionRequired": true,
+    "shareAlike": false
+  },
+  "inputLicenses": [
+    {
+      "id": "CC-BY-4.0",
+      "name": "Creative Commons Attribution 4.0 International",
+      "url": "https://creativecommons.org/licenses/by/4.0/",
+      "tier": "permissive",
+      "attributionRequired": true,
+      "shareAlike": false
+    }
+  ],
+  "providers": [
+    "GeoNames"
+  ],
+  "attribution": [
+    "GeoNames — Creative Commons Attribution 4.0 International (https://creativecommons.org/licenses/by/4.0/)",
+    "This dataset as a whole — Creative Commons Attribution 4.0 International (https://creativecommons.org/licenses/by/4.0/)"
+  ],
+  "region": "thailand",
+  "query": {
+    "kind": "country-dump",
+    "country": "TH",
+    "bbox": {
+      "west": 97,
+      "south": 5.5,
+      "east": 106,
+      "north": 20.6
+    }
+  },
+  "notes": [
+    "feature class A(行政区画)と V(植生)は落としてある。代表点しか持たないものは場所として扱わない。",
+    "言語の印が付けられる名前だけを names に入れている。alternatenames は言語不明なので使わない。"
+  ],
+  "pipeline": "places-pipeline/1.1",
+  "generatedAt": "2026-09-05T04:48:18.226Z",
+  "files": [
+    {
+      "name": "data-0001.jsonl",
+      "format": "application/x-ndjson",
+      "rows": 90899,
+      "bytes": 50331141,
+      "sha256": "2a27fc87fd215f46bce29822e0005b74f2345a7bc8b1f0524e01d16a9024480f",
+      "part": 1,
+      "parts": 3
+    },
+    {
+      "name": "data-0002.jsonl",
+      "format": "application/x-ndjson",
+      "rows": 90244,
+      "bytes": 50331140,
+      "sha256": "a61176276f132906faafee6fbcf22e0994faf310dfc06cc29b716ea97389cea4",
+      "part": 2,
+      "parts": 3
+    },
+    {
+      "name": "data-0003.jsonl",
+      "format": "application/x-ndjson",
+      "rows": 75144,
+      "bytes": 41779264,
+      "sha256": "d9dc32b9c1f3d1d101eaa7eaa1f789bdff135a5923f1160d559976e77e5a6e32",
+      "part": 3,
+      "parts": 3
+    }
+  ],
+  "skipped": [],
+  "countryCode": "TH"
+}

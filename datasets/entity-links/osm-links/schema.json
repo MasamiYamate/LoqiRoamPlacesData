@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Loqi Places entity link",
+  "type": "object",
+  "required": [
+    "loqi_place_id",
+    "left_record_id",
+    "right_record_id",
+    "method",
+    "confidence",
+    "license",
+    "generated_at"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "loqi_place_id": {
+      "type": "string",
+      "description": "束ねた先の共通 ID。Wikidata 側があればそちらに寄せる"
+    },
+    "left_record_id": {
+      "type": "string",
+      "description": "基準になったレコード(dataset:source_id)"
+    },
+    "left_dataset": {
+      "type": "string"
+    },
+    "left_license": {
+      "type": "string",
+      "description": "基準側のライセンス"
+    },
+    "right_record_id": {
+      "type": "string",
+      "description": "対応付けた相手(dataset:source_id)"
+    },
+    "right_dataset": {
+      "type": "string"
+    },
+    "right_license": {
+      "type": "string",
+      "description": "相手側のライセンス"
+    },
+    "method": {
+      "type": "string",
+      "description": "external-id:<key> か name+distance"
+    },
+    "confidence": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1,
+      "description": "外部 ID の一致なら 1.0。推測には 1.0 を付けない"
+    },
+    "distance_m": {
+      "type": "integer",
+      "description": "二つの代表点の距離(m)"
+    },
+    "license": {
+      "type": "string",
+      "description": "**この対応表自体**のライセンス。両側の厳しいほうに従う"
+    },
+    "generated_at": {
+      "type": "string"
+    }
+  }
+}

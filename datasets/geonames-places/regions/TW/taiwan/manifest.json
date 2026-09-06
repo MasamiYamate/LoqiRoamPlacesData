@@ -1,0 +1,58 @@
+{
+  "dataset": "geonames-places",
+  "title": "GeoNames Places",
+  "summary": "GeoNames の地名データを Loqi の正規化スキーマへ落としたもの。",
+  "license": {
+    "id": "CC-BY-4.0",
+    "name": "Creative Commons Attribution 4.0 International",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "tier": "permissive",
+    "attributionRequired": true,
+    "shareAlike": false
+  },
+  "inputLicenses": [
+    {
+      "id": "CC-BY-4.0",
+      "name": "Creative Commons Attribution 4.0 International",
+      "url": "https://creativecommons.org/licenses/by/4.0/",
+      "tier": "permissive",
+      "attributionRequired": true,
+      "shareAlike": false
+    }
+  ],
+  "providers": [
+    "GeoNames"
+  ],
+  "attribution": [
+    "GeoNames — Creative Commons Attribution 4.0 International (https://creativecommons.org/licenses/by/4.0/)",
+    "This dataset as a whole — Creative Commons Attribution 4.0 International (https://creativecommons.org/licenses/by/4.0/)"
+  ],
+  "region": "taiwan",
+  "query": {
+    "kind": "country-dump",
+    "country": "TW",
+    "bbox": {
+      "west": 119.2,
+      "south": 20.4,
+      "east": 122.2,
+      "north": 25.7
+    }
+  },
+  "notes": [
+    "feature class A(行政区画)と V(植生)は落としてある。代表点しか持たないものは場所として扱わない。",
+    "言語の印が付けられる名前だけを names に入れている。alternatenames は言語不明なので使わない。"
+  ],
+  "pipeline": "places-pipeline/1.1",
+  "generatedAt": "2026-09-05T04:39:46.401Z",
+  "files": [
+    {
+      "name": "data.jsonl",
+      "format": "application/x-ndjson",
+      "rows": 36801,
+      "bytes": 19941553,
+      "sha256": "4478dfc64cf2458fd6f0a35774f9f1d79f48db52f3c2f06b4b2a4b81a28286e9"
+    }
+  ],
+  "skipped": [],
+  "countryCode": "TW"
+}

@@ -1,0 +1,122 @@
+{
+  "dataset": "entity-links/osm-links",
+  "title": "Entity links (ODbL side)",
+  "summary": "Wikidata と OSM のレコードの対応表。OSM を見て作ったので ODbL 側に置く。",
+  "license": {
+    "id": "ODbL-1.0",
+    "name": "Open Database License v1.0",
+    "url": "https://opendatacommons.org/licenses/odbl/1-0/",
+    "tier": "share-alike",
+    "attributionRequired": true,
+    "shareAlike": true
+  },
+  "providers": [
+    "Wikidata",
+    "OpenStreetMap contributors"
+  ],
+  "attribution": [
+    "Wikidata — CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/)",
+    "OpenStreetMap contributors — Open Database License v1.0 (https://opendatacommons.org/licenses/odbl/1-0/)",
+    "This dataset as a whole — Open Database License v1.0 (https://opendatacommons.org/licenses/odbl/1-0/)"
+  ],
+  "path": "datasets/entity-links/osm-links/",
+  "generatedAt": "2026-09-05T12:37:02.313Z",
+  "regions": [
+    {
+      "id": "japan",
+      "countryCode": "JP",
+      "generatedAt": "2026-09-04T03:01:38.838Z",
+      "path": "datasets/entity-links/osm-links/regions/JP/japan/",
+      "manifest": "datasets/entity-links/osm-links/regions/JP/japan/manifest.json",
+      "files": [
+        {
+          "name": "data.jsonl",
+          "format": "application/x-ndjson",
+          "rows": 85652,
+          "bytes": 31561549,
+          "sha256": "0dc7c6dd08c783c098b2a39ff2931b036ca87ac50fd55a7184e38f700242a6af"
+        }
+      ]
+    },
+    {
+      "id": "south-korea",
+      "countryCode": "KR",
+      "generatedAt": "2026-09-05T01:14:01.248Z",
+      "path": "datasets/entity-links/osm-links/regions/KR/south-korea/",
+      "manifest": "datasets/entity-links/osm-links/regions/KR/south-korea/manifest.json",
+      "files": [
+        {
+          "name": "data.jsonl",
+          "format": "application/x-ndjson",
+          "rows": 10549,
+          "bytes": 3879502,
+          "sha256": "eea191eb15650f3c6a8e57fe6888f65c4853a557ef33990ae2369ba7b2806b48"
+        }
+      ]
+    },
+    {
+      "id": "philippines",
+      "countryCode": "PH",
+      "generatedAt": "2026-09-05T12:37:02.243Z",
+      "path": "datasets/entity-links/osm-links/regions/PH/philippines/",
+      "manifest": "datasets/entity-links/osm-links/regions/PH/philippines/manifest.json",
+      "files": [
+        {
+          "name": "data.jsonl",
+          "format": "application/x-ndjson",
+          "rows": 10463,
+          "bytes": 3846367,
+          "sha256": "075ef2f22a3ba1adccb09236cfd675a5fcd566420401325a374f57c7d7eef8f9"
+        }
+      ]
+    },
+    {
+      "id": "thailand",
+      "countryCode": "TH",
+      "generatedAt": "2026-09-05T04:49:12.026Z",
+      "path": "datasets/entity-links/osm-links/regions/TH/thailand/",
+      "manifest": "datasets/entity-links/osm-links/regions/TH/thailand/manifest.json",
+      "files": [
+        {
+          "name": "data.jsonl",
+          "format": "application/x-ndjson",
+          "rows": 7835,
+          "bytes": 2885156,
+          "sha256": "7cb878cacfed230dc0d123c3f553ffa39bc8ccd04e303a9b0de3c15265abf2c3"
+        }
+      ]
+    },
+    {
+      "id": "taiwan",
+      "countryCode": "TW",
+      "generatedAt": "2026-09-05T04:42:48.440Z",
+      "path": "datasets/entity-links/osm-links/regions/TW/taiwan/",
+      "manifest": "datasets/entity-links/osm-links/regions/TW/taiwan/manifest.json",
+      "files": [
+        {
+          "name": "data.jsonl",
+          "format": "application/x-ndjson",
+          "rows": 6798,
+          "bytes": 2508204,
+          "sha256": "f2cf06633ecff675a77a075cfb6910b6b9c91e3326523a2609dd4f7f2892dff2"
+        }
+      ]
+    },
+    {
+      "id": "vietnam",
+      "countryCode": "VN",
+      "generatedAt": "2026-09-05T04:56:37.742Z",
+      "path": "datasets/entity-links/osm-links/regions/VN/vietnam/",
+      "manifest": "datasets/entity-links/osm-links/regions/VN/vietnam/manifest.json",
+      "files": [
+        {
+          "name": "data.jsonl",
+          "format": "application/x-ndjson",
+          "rows": 3735,
+          "bytes": 1377382,
+          "sha256": "f02afa9d1c4408fa6ea2cf74874bff1afce4247c25247d2a8013215ffccd950d"
+        }
+      ]
+    }
+  ]
+}

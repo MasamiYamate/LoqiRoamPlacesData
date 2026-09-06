@@ -1,0 +1,122 @@
+{
+  "dataset": "entity-links/ccby-links",
+  "title": "Entity links (CC BY side)",
+  "summary": "Wikidata と GeoNames のレコードが同じ場所を指しているという対応表。",
+  "license": {
+    "id": "CC-BY-4.0",
+    "name": "Creative Commons Attribution 4.0 International",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "tier": "permissive",
+    "attributionRequired": true,
+    "shareAlike": false
+  },
+  "providers": [
+    "Wikidata",
+    "GeoNames"
+  ],
+  "attribution": [
+    "Wikidata — CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/)",
+    "GeoNames — Creative Commons Attribution 4.0 International (https://creativecommons.org/licenses/by/4.0/)",
+    "This dataset as a whole — Creative Commons Attribution 4.0 International (https://creativecommons.org/licenses/by/4.0/)"
+  ],
+  "path": "datasets/entity-links/ccby-links/",
+  "generatedAt": "2026-09-05T12:37:02.313Z",
+  "regions": [
+    {
+      "id": "japan",
+      "countryCode": "JP",
+      "generatedAt": "2026-09-04T02:59:24.971Z",
+      "path": "datasets/entity-links/ccby-links/regions/JP/japan/",
+      "manifest": "datasets/entity-links/ccby-links/regions/JP/japan/manifest.json",
+      "files": [
+        {
+          "name": "data.jsonl",
+          "format": "application/x-ndjson",
+          "rows": 21887,
+          "bytes": 8168132,
+          "sha256": "1fe275c2f54174fbe739755186b693b4d64d80df07d2e6da800d856546fe8bba"
+        }
+      ]
+    },
+    {
+      "id": "south-korea",
+      "countryCode": "KR",
+      "generatedAt": "2026-09-05T01:13:48.949Z",
+      "path": "datasets/entity-links/ccby-links/regions/KR/south-korea/",
+      "manifest": "datasets/entity-links/ccby-links/regions/KR/south-korea/manifest.json",
+      "files": [
+        {
+          "name": "data.jsonl",
+          "format": "application/x-ndjson",
+          "rows": 11923,
+          "bytes": 4452845,
+          "sha256": "b0496a6efcaf4d937baae2cabcce095d8ef91a630b7a9196ccf173372a127e3c"
+        }
+      ]
+    },
+    {
+      "id": "philippines",
+      "countryCode": "PH",
+      "generatedAt": "2026-09-05T12:36:57.557Z",
+      "path": "datasets/entity-links/ccby-links/regions/PH/philippines/",
+      "manifest": "datasets/entity-links/ccby-links/regions/PH/philippines/manifest.json",
+      "files": [
+        {
+          "name": "data.jsonl",
+          "format": "application/x-ndjson",
+          "rows": 22986,
+          "bytes": 8580911,
+          "sha256": "b394bb33bdd3a01da21ba8ac09b4ef006c23d675449ff829917739ded725a8ba"
+        }
+      ]
+    },
+    {
+      "id": "thailand",
+      "countryCode": "TH",
+      "generatedAt": "2026-09-05T04:49:07.763Z",
+      "path": "datasets/entity-links/ccby-links/regions/TH/thailand/",
+      "manifest": "datasets/entity-links/ccby-links/regions/TH/thailand/manifest.json",
+      "files": [
+        {
+          "name": "data.jsonl",
+          "format": "application/x-ndjson",
+          "rows": 26114,
+          "bytes": 9755540,
+          "sha256": "a82d5dd476d69e520385facc765adc518bb6eece96cde664950e0f83c57ce520"
+        }
+      ]
+    },
+    {
+      "id": "taiwan",
+      "countryCode": "TW",
+      "generatedAt": "2026-09-05T04:42:38.273Z",
+      "path": "datasets/entity-links/ccby-links/regions/TW/taiwan/",
+      "manifest": "datasets/entity-links/ccby-links/regions/TW/taiwan/manifest.json",
+      "files": [
+        {
+          "name": "data.jsonl",
+          "format": "application/x-ndjson",
+          "rows": 5435,
+          "bytes": 2029482,
+          "sha256": "9597a185df3db861405f5c9ec606c6e77dec82cc4efae8b757c751d374067804"
+        }
+      ]
+    },
+    {
+      "id": "vietnam",
+      "countryCode": "VN",
+      "generatedAt": "2026-09-05T04:56:34.439Z",
+      "path": "datasets/entity-links/ccby-links/regions/VN/vietnam/",
+      "manifest": "datasets/entity-links/ccby-links/regions/VN/vietnam/manifest.json",
+      "files": [
+        {
+          "name": "data.jsonl",
+          "format": "application/x-ndjson",
+          "rows": 11669,
+          "bytes": 4357996,
+          "sha256": "932866a43d76a9b7a33501a01db58cd625449064542070ba5c91a4fadfcbd7c0"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "dataset": "wikidata-places",
+  "title": "Wikidata Places",
+  "summary": "Wikidata の座標付き item を Loqi の正規化スキーマへ落としたもの。",
+  "license": {
+    "id": "CC0-1.0",
+    "name": "CC0 1.0 Universal",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "tier": "cc0",
+    "attributionRequired": false,
+    "shareAlike": false
+  },
+  "inputLicenses": [
+    {
+      "id": "CC0-1.0",
+      "name": "CC0 1.0 Universal",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "tier": "cc0",
+      "attributionRequired": false,
+      "shareAlike": false
+    }
+  ],
+  "providers": [
+    "Wikidata"
+  ],
+  "attribution": [
+    "Wikidata — CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/)",
+    "This dataset as a whole — CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/)"
+  ],
+  "region": "south-korea",
+  "query": {
+    "kind": "wikibase:box",
+    "bbox": {
+      "west": 124.3,
+      "south": 32.3,
+      "east": 132.4,
+      "north": 38.7
+    },
+    "country": "KR"
+  },
+  "notes": [
+    "座標は P625。分類は P31 を P279* で上位アンカーへ束ねたもので、生の P31 は source_kinds に残してある。",
+    "名前の無い item は落としている(名前が引けないものは、AI にも人にも指せない)。"
+  ],
+  "pipeline": "places-pipeline/1.1",
+  "generatedAt": "2026-09-05T01:07:56.263Z",
+  "files": [
+    {
+      "name": "data.jsonl",
+      "format": "application/x-ndjson",
+      "rows": 32401,
+      "bytes": 19400899,
+      "sha256": "e9179045d44160623948387a5bf1a3e05cba252b3359316aefdc98ff46a256af"
+    }
+  ],
+  "skipped": [
+    {
+      "reason": "名前が無い",
+      "count": 4238
+    }
+  ],
+  "countryCode": "KR"
+}
