@@ -1,0 +1,9 @@
+# KR — Wikidata Places
+
+[English](README.md)
+
+公開済みの地域ディレクトリ:
+
+- [`south-korea/`](south-korea/)
+
+機械可読な正本は[データセットindex](../../index.json)です。

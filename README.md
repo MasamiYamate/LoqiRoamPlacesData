@@ -1,5 +1,7 @@
 # LoqiRoam Places Data
 
+[日本語](README.ja.md)
+
 Open place datasets normalized by Loqi, distributed by source and license.
 
 Source records stay separate, and `entity-links/` describes conservative matches

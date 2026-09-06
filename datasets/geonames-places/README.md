@@ -1,46 +1,27 @@
 # GeoNames Places
 
-GeoNames の地名データを Loqi の正規化スキーマへ落としたもの。
+[日本語](README.ja.md)
 
-## ライセンス
+GeoNames place records normalized to the Loqi Places schema.
+
+## License
 
 - **CC-BY-4.0** — Creative Commons Attribution 4.0 International
-- 全文: https://creativecommons.org/licenses/by/4.0/
-- 帰属表示: **要る**
-- Share-Alike: 要らない
+- Full text: https://creativecommons.org/licenses/by/4.0/
+- Attribution: required
+- Share-Alike: not required
 
-## 出所
-
-**提供元のライセンスと、このデータセットのライセンスは別。**
-対応表が ODbL でも、そこに出てくる Wikidata は CC0 のままである。
+## Sources
 
 - GeoNames — `CC-BY-4.0`
 
-## ファイル
+## Files
 
-| ファイル | 中身 |
-| --- | --- |
-| `<region>.jsonl` | 1 行 1 レコード。**こちらが正典** |
-| `<region>.parquet` | 同じ内容の列指向版(`to_parquet.py` が作る) |
-| `manifest.json` | 何から、いつ、どう作ったか。行数とファイルの指紋 |
-| `schema.json` | 列の意味 |
-| `LICENSE` | 配る側が負う義務 |
+- `index.json`: available regions and their manifests
+- `schema.json`: record schema
+- `regions/<ISO code>/<region id>/manifest.json`: ordered files, counts, sizes, and hashes
+- `data.jsonl` or `data-*.jsonl`: canonical JSON Lines records
+- `LICENSE`: redistribution terms for this dataset
 
-## なぜ統合しないのか
-
-出典ごとに条件が違うから。CC0 のつもりで配ったものが実は ODbL だった、は後から直せない —
-配った先の誰かが既に取り込んでいる。だから**出典の境界を、そのまま配布の境界にしてある**。
-
-横断して検索したいときは Loqi Places API を使う。あちらは境界を保ったまま、
-問い合わせのときだけ束ねて、応答には必ず `sources[]` を添えて返す。
-
-## 帰属表示
-
-このデータセットを配るときは **GeoNames への帰属表示が要る**。
-manifest.json の `attribution` をそのまま添えればよい。
-
-## 分類の付け方
-
-GeoNames の feature code は最初から粗いので、平たい対応表で足りる
-(`GEONAMES_KIND_BY_FEATURE`)。当たらなかったものは `other` で、
-生の `<class>.<code>` は `source_kinds` に残る。
+Source records stay in separate license-family datasets. Cross-source lookup may link
+records at query time, but this directory never silently mixes license families.
