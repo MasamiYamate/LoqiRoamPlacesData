@@ -20,12 +20,12 @@
     "This dataset as a whole — CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/)"
   ],
   "path": "datasets/loqi-ai-enrichment/",
-  "generatedAt": "2026-09-06T13:13:09.532Z",
+  "generatedAt": "2026-09-06T19:52:20.861Z",
   "regions": [
     {
       "id": "japan",
       "countryCode": "JP",
-      "generatedAt": "2026-09-06T13:13:09.532Z",
+      "generatedAt": "2026-09-06T19:52:20.861Z",
       "path": "datasets/loqi-ai-enrichment/regions/JP/japan/",
       "manifest": "datasets/loqi-ai-enrichment/regions/JP/japan/manifest.json",
       "files": [
@@ -60,6 +60,14 @@
           "bytes": 1249709,
           "sha256": "303f4fb874e9512b79cc657fe7a3c1357bc9e031d3a5b13c707926cded64339c",
           "generatedAt": "2026-09-06T13:13:09.532Z"
+        },
+        {
+          "name": "data-ed4d906ed6414450.jsonl",
+          "format": "application/x-ndjson",
+          "rows": 2480,
+          "bytes": 1210304,
+          "sha256": "ed4d906ed6414450026d095075003d2e869f5ed5d8dedaba5ac0a94754a21f67",
+          "generatedAt": "2026-09-06T19:52:20.861Z"
         }
       ]
     }
