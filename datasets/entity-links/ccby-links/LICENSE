@@ -1,16 +1,19 @@
 Entity links (CC BY side) (Loqi Places dataset: entity-links/ccby-links)
 
 License: CC-BY-4.0 — Creative Commons Attribution 4.0 International
-Full text: https://creativecommons.org/licenses/by/4.0/
+Canonical license text: https://creativecommons.org/licenses/by/4.0/
+This LICENSE file is a notice. The canonical legal text is available at the URI above.
+The dataset license governs the JSONL data and its database metadata, including schema.json, index.json, and manifest.json.
+Loqi-authored README and licensing-guide text is separately released under CC0-1.0; see the repository DOCUMENTATION-LICENSE.md.
 
 Sources (each under its own license):
-  - Wikidata — CC0-1.0
-  - GeoNames — CC-BY-4.0
+  - Wikidata — CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/) — source: https://www.wikidata.org/
+  - Contains adapted data from GeoNames (https://www.geonames.org/), licensed under Creative Commons Attribution 4.0 International (https://creativecommons.org/licenses/by/4.0/). Loqi selected records and normalized fields, classifications, and output structure.
 
 Obligations when you redistribute this dataset or anything derived from it:
-  - Attribution is required. Keep the `attribution` field of manifest.json with the data.
-  - No Share-Alike. You may license derived works as you like, subject to the line above.
-  - Ship the canonical license text (see the URL above) alongside any redistribution.
+  - Attribution is required. Preserve this notice and the `attribution` field of manifest.json with the data.
+  - No Share-Alike applies. You may license your own additions separately, without removing the obligations above.
+  - Keep the canonical license URI above, or a copy of its legal text, with any redistribution.
 
 This dataset holds records from ONE license family only. Loqi Places never merges
 license families into one file: the boundary of a source is the boundary of a dataset.

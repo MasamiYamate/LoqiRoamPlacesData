@@ -15,8 +15,8 @@
     "Loqi"
   ],
   "attribution": [
-    "Wikidata — CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/)",
-    "Loqi — CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/)",
+    "Wikidata — CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/) — source: https://www.wikidata.org/",
+    "Loqi — CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/) — source: https://github.com/MasamiYamate/LoqiRoamPlacesData",
     "This dataset as a whole — CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/)"
   ],
   "path": "datasets/loqi-ai-enrichment/",

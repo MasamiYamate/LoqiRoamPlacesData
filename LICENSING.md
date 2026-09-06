@@ -1,7 +1,8 @@
 # Licensing
 
-This repository contains independent datasets. A license applies only to the dataset
-directory that contains its `LICENSE` file; there is no repository-wide data license.
+This repository contains independent datasets; there is no repository-wide data license.
+Each dataset's `LICENSE` notice governs its JSONL data and database metadata, including
+`schema.json`, `index.json`, and `manifest.json`. It does not govern README prose.
 
 | Dataset | License |
 | --- | --- |
@@ -13,6 +14,10 @@ directory that contains its `LICENSE` file; there is no repository-wide data lic
 | `datasets/loqi-ai-enrichment/` | CC0-1.0 |
 | `datasets/loqi-osm-ai-enrichment/` | ODbL-1.0 |
 
-Keep each dataset's `LICENSE`, `README.md`, and region `manifest.json` with the data
-when redistributing it. Do not treat files from different dataset directories as if they
-shared one license.
+Loqi-authored `README*.md` and `LICENSING*.md` text is separately released under
+[CC0-1.0](DOCUMENTATION-LICENSE.md). Upstream names, notices, and third-party material
+remain subject to their respective rights. This documentation license does not change
+any dataset license.
+
+When redistributing data, keep its dataset `LICENSE` notice and region `manifest.json`.
+Do not treat files from different dataset directories as if they shared one license.

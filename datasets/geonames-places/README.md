@@ -13,7 +13,12 @@ GeoNames place records normalized to the Loqi Places schema.
 
 ## Sources
 
-- GeoNames — `CC-BY-4.0`
+- [GeoNames](https://www.geonames.org/) — `CC-BY-4.0`
+
+## Changes from source
+
+Loqi selected records and normalized field names, classifications, and output structure.
+This is an adapted dataset, not an unchanged source dump.
 
 ## Files
 
@@ -21,7 +26,11 @@ GeoNames place records normalized to the Loqi Places schema.
 - `schema.json`: record schema
 - `regions/<ISO code>/<region id>/manifest.json`: ordered files, counts, sizes, and hashes
 - `data.jsonl` or `data-*.jsonl`: canonical JSON Lines records
-- `LICENSE`: redistribution terms for this dataset
+- `LICENSE`: dataset license notice and canonical legal-text URI
 
 Source records stay in separate license-family datasets. Cross-source lookup may link
 records at query time, but this directory never silently mixes license families.
+
+## Documentation license
+
+Loqi-authored prose is [CC0-1.0](../../DOCUMENTATION-LICENSE.md). Dataset files remain under their dataset license.

@@ -33,8 +33,8 @@
     "GeoNames"
   ],
   "attribution": [
-    "Wikidata — CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/)",
-    "GeoNames — Creative Commons Attribution 4.0 International (https://creativecommons.org/licenses/by/4.0/)",
+    "Wikidata — CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/) — source: https://www.wikidata.org/",
+    "Contains adapted data from GeoNames (https://www.geonames.org/), licensed under Creative Commons Attribution 4.0 International (https://creativecommons.org/licenses/by/4.0/). Loqi selected records and normalized fields, classifications, and output structure.",
     "This dataset as a whole — Creative Commons Attribution 4.0 International (https://creativecommons.org/licenses/by/4.0/)"
   ],
   "region": "thailand",

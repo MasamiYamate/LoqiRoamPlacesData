@@ -23,8 +23,8 @@
         "GeoNames"
       ],
       "attribution": [
-        "Wikidata — CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/)",
-        "GeoNames — Creative Commons Attribution 4.0 International (https://creativecommons.org/licenses/by/4.0/)",
+        "Wikidata — CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/) — source: https://www.wikidata.org/",
+        "Contains adapted data from GeoNames (https://www.geonames.org/), licensed under Creative Commons Attribution 4.0 International (https://creativecommons.org/licenses/by/4.0/). Loqi selected records and normalized fields, classifications, and output structure.",
         "This dataset as a whole — Creative Commons Attribution 4.0 International (https://creativecommons.org/licenses/by/4.0/)"
       ],
       "path": "datasets/entity-links/ccby-links/",
@@ -145,8 +145,8 @@
         "OpenStreetMap contributors"
       ],
       "attribution": [
-        "Wikidata — CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/)",
-        "OpenStreetMap contributors — Open Database License v1.0 (https://opendatacommons.org/licenses/odbl/1-0/)",
+        "Wikidata — CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/) — source: https://www.wikidata.org/",
+        "Contains information from OpenStreetMap (https://www.openstreetmap.org/copyright), which is made available under the Open Database License v1.0 (https://opendatacommons.org/licenses/odbl/1-0/). © OpenStreetMap contributors.",
         "This dataset as a whole — Open Database License v1.0 (https://opendatacommons.org/licenses/odbl/1-0/)"
       ],
       "path": "datasets/entity-links/osm-links/",
@@ -266,7 +266,7 @@
         "GeoNames"
       ],
       "attribution": [
-        "GeoNames — Creative Commons Attribution 4.0 International (https://creativecommons.org/licenses/by/4.0/)",
+        "Contains adapted data from GeoNames (https://www.geonames.org/), licensed under Creative Commons Attribution 4.0 International (https://creativecommons.org/licenses/by/4.0/). Loqi selected records and normalized fields, classifications, and output structure.",
         "This dataset as a whole — Creative Commons Attribution 4.0 International (https://creativecommons.org/licenses/by/4.0/)"
       ],
       "path": "datasets/geonames-places/",
@@ -429,8 +429,8 @@
         "Loqi"
       ],
       "attribution": [
-        "Wikidata — CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/)",
-        "Loqi — CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/)",
+        "Wikidata — CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/) — source: https://www.wikidata.org/",
+        "Loqi — CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/) — source: https://github.com/MasamiYamate/LoqiRoamPlacesData",
         "This dataset as a whole — CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/)"
       ],
       "path": "datasets/loqi-ai-enrichment/",
@@ -480,8 +480,8 @@
         "Loqi"
       ],
       "attribution": [
-        "OpenStreetMap contributors — Open Database License v1.0 (https://opendatacommons.org/licenses/odbl/1-0/)",
-        "Loqi — Open Database License v1.0 (https://opendatacommons.org/licenses/odbl/1-0/)",
+        "Contains information from OpenStreetMap (https://www.openstreetmap.org/copyright), which is made available under the Open Database License v1.0 (https://opendatacommons.org/licenses/odbl/1-0/). © OpenStreetMap contributors.",
+        "Loqi — Open Database License v1.0 (https://opendatacommons.org/licenses/odbl/1-0/) — source: https://github.com/MasamiYamate/LoqiRoamPlacesData",
         "This dataset as a whole — Open Database License v1.0 (https://opendatacommons.org/licenses/odbl/1-0/)"
       ],
       "path": "datasets/loqi-osm-ai-enrichment/",
@@ -530,7 +530,7 @@
         "OpenStreetMap contributors"
       ],
       "attribution": [
-        "OpenStreetMap contributors — Open Database License v1.0 (https://opendatacommons.org/licenses/odbl/1-0/)",
+        "Contains information from OpenStreetMap (https://www.openstreetmap.org/copyright), which is made available under the Open Database License v1.0 (https://opendatacommons.org/licenses/odbl/1-0/). © OpenStreetMap contributors.",
         "This dataset as a whole — Open Database License v1.0 (https://opendatacommons.org/licenses/odbl/1-0/)"
       ],
       "path": "datasets/osm-places/",
@@ -923,7 +923,7 @@
         "Wikidata"
       ],
       "attribution": [
-        "Wikidata — CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/)",
+        "Wikidata — CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/) — source: https://www.wikidata.org/",
         "This dataset as a whole — CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/)"
       ],
       "path": "datasets/wikidata-places/",

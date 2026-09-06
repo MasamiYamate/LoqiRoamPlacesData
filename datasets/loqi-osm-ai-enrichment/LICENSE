@@ -1,16 +1,19 @@
 Loqi OSM AI Enrichment (Loqi Places dataset: loqi-osm-ai-enrichment)
 
 License: ODbL-1.0 — Open Database License v1.0
-Full text: https://opendatacommons.org/licenses/odbl/1-0/
+Canonical license text: https://opendatacommons.org/licenses/odbl/1-0/
+This LICENSE file is a notice. The canonical legal text is available at the URI above.
+The dataset license governs the JSONL data and its database metadata, including schema.json, index.json, and manifest.json.
+Loqi-authored README and licensing-guide text is separately released under CC0-1.0; see the repository DOCUMENTATION-LICENSE.md.
 
 Sources (each under its own license):
-  - OpenStreetMap contributors — ODbL-1.0
-  - Loqi — ODbL-1.0
+  - Contains information from OpenStreetMap (https://www.openstreetmap.org/copyright), which is made available under the Open Database License v1.0 (https://opendatacommons.org/licenses/odbl/1-0/). © OpenStreetMap contributors.
+  - Loqi — Open Database License v1.0 (https://opendatacommons.org/licenses/odbl/1-0/) — source: https://github.com/MasamiYamate/LoqiRoamPlacesData
 
 Obligations when you redistribute this dataset or anything derived from it:
-  - Attribution is required. Keep the `attribution` field of manifest.json with the data.
-  - Share-Alike applies. A derived database must be offered under the same license.
-  - Ship the canonical license text (see the URL above) alongside any redistribution.
+  - Attribution is required. Preserve this notice and the `attribution` field of manifest.json with the data.
+  - Share-Alike applies. A publicly used derived database must be offered under the same license.
+  - Keep the canonical license URI above, or a copy of its legal text, with any redistribution.
 
 This dataset holds records from ONE license family only. Loqi Places never merges
 license families into one file: the boundary of a source is the boundary of a dataset.

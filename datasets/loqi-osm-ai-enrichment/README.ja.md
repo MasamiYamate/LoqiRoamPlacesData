@@ -42,3 +42,7 @@ ODbL の OSM 場所データだけを材料に、AI が意味情報を生成し�
 各行は名前・分類・地域からAIが推測したラベルで、現地観測や事実認定ではない。
 `model`、`prompt_version`、`generated_at`、`input_hash`を使って生成条件を追跡できる。
 JSONLは一定件数ごとの不変パートとして追加され、manifestの順序で読む。
+
+## 文書ライセンス
+
+Loqi作成の本文は[CC0-1.0](../../DOCUMENTATION-LICENSE.md)です。データには各データセットのライセンスが適用されます。

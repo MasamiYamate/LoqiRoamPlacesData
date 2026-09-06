@@ -13,8 +13,13 @@ AI-inferred semantic labels derived only from ODbL OpenStreetMap place data.
 
 ## Sources
 
-- OpenStreetMap contributors — `ODbL-1.0`
-- Loqi — `ODbL-1.0`
+- [OpenStreetMap contributors](https://www.openstreetmap.org/copyright) — `ODbL-1.0`
+- [Loqi](https://github.com/MasamiYamate/LoqiRoamPlacesData) — `ODbL-1.0`
+
+## Changes from source
+
+Loqi selected records and normalized field names, classifications, and output structure.
+This is an adapted dataset, not an unchanged source dump.
 
 ## Files
 
@@ -22,7 +27,11 @@ AI-inferred semantic labels derived only from ODbL OpenStreetMap place data.
 - `schema.json`: record schema
 - `regions/<ISO code>/<region id>/manifest.json`: ordered files, counts, sizes, and hashes
 - `data.jsonl` or `data-*.jsonl`: canonical JSON Lines records
-- `LICENSE`: redistribution terms for this dataset
+- `LICENSE`: dataset license notice and canonical legal-text URI
 
 Source records stay in separate license-family datasets. Cross-source lookup may link
 records at query time, but this directory never silently mixes license families.
+
+## Documentation license
+
+Loqi-authored prose is [CC0-1.0](../../DOCUMENTATION-LICENSE.md). Dataset files remain under their dataset license.

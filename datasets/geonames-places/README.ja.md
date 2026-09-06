@@ -46,3 +46,7 @@ manifest.json の `attribution` をそのまま添えればよい。
 GeoNames の feature code は最初から粗いので、平たい対応表で足りる
 (`GEONAMES_KIND_BY_FEATURE`)。当たらなかったものは `other` で、
 生の `<class>.<code>` は `source_kinds` に残る。
+
+## 文書ライセンス
+
+Loqi作成の本文は[CC0-1.0](../../DOCUMENTATION-LICENSE.md)です。データには各データセットのライセンスが適用されます。
