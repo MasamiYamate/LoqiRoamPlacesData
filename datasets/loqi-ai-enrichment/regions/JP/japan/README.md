@@ -5,7 +5,7 @@
 - Country code: `JP`
 - Dataset: `loqi-ai-enrichment`
 - License: `CC0-1.0`
-- Records listed by the manifest: 28,080
+- Records listed by the manifest: 30,560
 
 Read [`manifest.json`](manifest.json) first and process its `files` array in order.
 JSONL is canonical. Keep the [dataset license](../../../LICENSE), attribution, and manifest
