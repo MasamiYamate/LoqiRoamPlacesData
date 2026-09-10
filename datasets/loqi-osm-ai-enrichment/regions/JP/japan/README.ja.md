@@ -5,7 +5,7 @@
 - 国コード: `JP`
 - データセット: `loqi-osm-ai-enrichment`
 - ライセンス: `ODbL-1.0`
-- manifest記載レコード数: 40,494
+- manifest記載レコード数: 43,054
 
 最初に[`manifest.json`](manifest.json)を読み、`files`配列の順番で処理してください。
 JSONLが正典です。再配布時は[データセットのLICENSE](../../../LICENSE)、帰属表示、manifestを
