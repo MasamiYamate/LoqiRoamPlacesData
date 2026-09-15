@@ -20,12 +20,12 @@
     "This dataset as a whole — Open Database License v1.0 (https://opendatacommons.org/licenses/odbl/1-0/)"
   ],
   "path": "datasets/loqi-osm-ai-enrichment/",
-  "generatedAt": "2026-09-15T09:53:56.764Z",
+  "generatedAt": "2026-09-15T16:04:17.853Z",
   "regions": [
     {
       "id": "japan",
       "countryCode": "JP",
-      "generatedAt": "2026-09-15T09:53:56.764Z",
+      "generatedAt": "2026-09-15T16:04:17.853Z",
       "path": "datasets/loqi-osm-ai-enrichment/regions/JP/japan/",
       "manifest": "datasets/loqi-osm-ai-enrichment/regions/JP/japan/manifest.json",
       "files": [
@@ -324,6 +324,14 @@
           "bytes": 1276047,
           "sha256": "2e028689df27c07feb34c721c2ee80ba5c142ace5ac7e4100601e142a099b9fa",
           "generatedAt": "2026-09-15T09:53:56.764Z"
+        },
+        {
+          "name": "data-3684b89c172a5c44.jsonl",
+          "format": "application/x-ndjson",
+          "rows": 2480,
+          "bytes": 1238141,
+          "sha256": "3684b89c172a5c44505f2905745988d4483da4d93ed1cbfc9619fbcafcc95266",
+          "generatedAt": "2026-09-15T16:04:17.853Z"
         }
       ]
     }
