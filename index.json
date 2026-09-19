@@ -2,7 +2,7 @@
   "name": "Loqi Places open base datasets",
   "tagline": "Open place data, unified for AI.",
   "principle": "Datasets stay open and independent. Loqi makes them work together.",
-  "generatedAt": "2026-09-19T08:13:22.837Z",
+  "generatedAt": "2026-09-19T14:28:42.990Z",
   "repository": "https://github.com/MasamiYamate/LoqiRoamPlacesData",
   "includesAiEnrichment": true,
   "datasets": [
@@ -434,12 +434,12 @@
         "This dataset as a whole — CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/)"
       ],
       "path": "datasets/loqi-ai-enrichment/",
-      "generatedAt": "2026-09-19T08:13:22.837Z",
+      "generatedAt": "2026-09-19T14:28:42.990Z",
       "regions": [
         {
           "id": "japan",
           "countryCode": "JP",
-          "generatedAt": "2026-09-19T08:13:22.837Z",
+          "generatedAt": "2026-09-19T14:28:42.990Z",
           "path": "datasets/loqi-ai-enrichment/regions/JP/japan/",
           "manifest": "datasets/loqi-ai-enrichment/regions/JP/japan/manifest.json",
           "files": [
@@ -858,6 +858,14 @@
               "bytes": 1208661,
               "sha256": "8d68d7d0b17b4f760bb645a57b5218936c4eeacc2496b3426175acb383da21cc",
               "generatedAt": "2026-09-19T08:13:22.837Z"
+            },
+            {
+              "name": "data-5b5f608dca9e8339.jsonl",
+              "format": "application/x-ndjson",
+              "rows": 2560,
+              "bytes": 1255545,
+              "sha256": "5b5f608dca9e833973237be3d4722916da636fa27ba61412a8279f34419a69bd",
+              "generatedAt": "2026-09-19T14:28:42.990Z"
             }
           ]
         }
@@ -885,12 +893,12 @@
         "This dataset as a whole — Open Database License v1.0 (https://opendatacommons.org/licenses/odbl/1-0/)"
       ],
       "path": "datasets/loqi-osm-ai-enrichment/",
-      "generatedAt": "2026-09-19T08:13:22.837Z",
+      "generatedAt": "2026-09-19T14:28:42.990Z",
       "regions": [
         {
           "id": "japan",
           "countryCode": "JP",
-          "generatedAt": "2026-09-19T08:13:22.837Z",
+          "generatedAt": "2026-09-19T14:28:42.990Z",
           "path": "datasets/loqi-osm-ai-enrichment/regions/JP/japan/",
           "manifest": "datasets/loqi-osm-ai-enrichment/regions/JP/japan/manifest.json",
           "files": [
@@ -1309,6 +1317,14 @@
               "bytes": 1263045,
               "sha256": "8bb014eada1ce406dd0bf18f20ef4f0d5c91f3f8a4c10207f13889399d19cb67",
               "generatedAt": "2026-09-19T08:13:22.837Z"
+            },
+            {
+              "name": "data-d0c995c9dd4f1ea0.jsonl",
+              "format": "application/x-ndjson",
+              "rows": 2480,
+              "bytes": 1224329,
+              "sha256": "d0c995c9dd4f1ea0c50f18ff162e6eac3f64dbcb564f65742bb0009263048daa",
+              "generatedAt": "2026-09-19T14:28:42.990Z"
             }
           ]
         }
